@@ -1,0 +1,2856 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+
+%% Created for David_Casanova at 2020-08-11 07:44:13 +0200 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@article{Sous:st_eom_cc:2014,
+	Annote = {doi: 10.1080/00268976.2013.847216},
+	Author = {Sous, J. and Goel, P. and Nooijen, M.},
+	Booktitle = {Molecular Physics},
+	Da = {2014/03/19},
+	Date = {2014/03/19},
+	Date-Added = {2020-08-11 07:43:43 +0200},
+	Date-Modified = {2020-08-11 07:44:13 +0200},
+	Doi = {10.1080/00268976.2013.847216},
+	Isbn = {0026-8976},
+	Journal = mp,
+	Journal1 = {Molecular Physics},
+	M3 = {doi: 10.1080/00268976.2013.847216},
+	Month = {03},
+	Number = {5-6},
+	Pages = {616--638},
+	Publisher = {Taylor \& Francis},
+	Title = {Similarity transformed equation of motion coupled cluster theory revisited: a benchmark study of valence excited states},
+	Ty = {JOUR},
+	Url = {https://doi.org/10.1080/00268976.2013.847216},
+	Volume = {112},
+	Year = {2014},
+	Year1 = {2014},
+	Bdsk-Url-1 = {https://doi.org/10.1080/00268976.2013.847216}}
+
+@article{Izsak:sr_cc:2020,
+	Annote = {doi: 10.1002/wcms.1445},
+	Author = {Izs\'ak, R\'obert},
+	Booktitle = {WIREs Computational Molecular Science},
+	Da = {2020/05/01},
+	Date = {2020/05/01},
+	Date-Added = {2020-08-11 07:36:15 +0200},
+	Date-Modified = {2020-08-11 07:37:10 +0200},
+	Doi = {10.1002/wcms.1445},
+	Isbn = {1759-0876},
+	Journal = wires,
+	Journal1 = {WIREs Computational Molecular Science},
+	Journal2 = {WIREs Comput Mol Sci},
+	Keywords = {accuracy; coupled cluster; efficiency; excited states; single reference},
+	M3 = {doi: 10.1002/wcms.1445},
+	Month = {2020/08/10},
+	N2 = {Abstract While methodological developments in the last decade made it possible to compute coupled cluster (CC) energies including excitations up to a perturbative triples correction for molecules containing several hundred atoms, a similar breakthrough has not yet been reported for excited state computations. Accurate CC methods for excited states are still expensive, although some promising candidates for an efficient and accurate excited state CC method have emerged recently. This review examines the various approximation schemes with particular emphasis on their performance for excitation energies and summarizes the best state-of-the-art results which may pave the way for a robust excited state method applicable to molecules of hundreds of atoms. Among these, special attention will be given to exploiting the techniques of similarity transformation, perturbative approximations as well as integral decomposition, local and embedding techniques within the equation of motion CC framework. This article is categorized under: Electronic Structure Theory > Ab Initio Electronic Structure Methods Structure and Mechanism > Molecular Structures},
+	Number = {3},
+	Pages = {e1445},
+	Publisher = {John Wiley \& Sons, Ltd},
+	Title = {Single-reference coupled cluster methods for computing excitation energies in large molecules: The efficiency and accuracy of approximations},
+	Ty = {JOUR},
+	Url = {https://doi.org/10.1002/wcms.1445},
+	Volume = {10},
+	Year = {2020},
+	Year1 = {2020},
+	Bdsk-Url-1 = {https://doi.org/10.1002/wcms.1445}}
+
+@inbook{Simons:EOMEA:enc,
+	Author = {J. Simons},
+	Chapter = {Equation of motion {(EOM)} methods for computing electron affinities},
+	Publisher = {J. Wiley \& Son, New York},
+	Title = {Encyclopedia of computational chemistry},
+	Year = {1998}}
+
+@article{Hirata:PT:01,
+	Author = {S. Hirata and M. Nooijen and I. Grabowski and R. J. Bartlett},
+	Journal = jcp,
+	Pages = {3919-3928},
+	Title = {Perturbative corrections to coupled-cluster and equation-of-motion coupled-cluster energies: A determinantal analysis},
+	Volume = {114},
+	Year = {2001}}
+
+@misc{Stanton:NAC,
+	Author = {J. F. Stanton and J. Gauss},
+	Howpublished = {private communication},
+	Title = {A Quasidiabatic Approach in Equation-of-Motion Coupled Cluster Theory: Perspective, Derivations and Preliminary Applications},
+	Year = {2007}}
+
+@misc{Stanton:DERIV,
+	Author = {J. F. Stanton},
+	Howpublished = {private communication},
+	Note = {perhaps the nicest derivation comes from differentiating the amplitude equations, which makes a very nice connection with perturbation theory. I don't know if this has ever been published, but it is the only way (that I understand) to derive EOM equations for methods like CC2, CCSDT-n, etc... Perhaps you could mention this?},
+	Year = {2007}}
+
+@misc{Stanton:pc,
+	Author = {J. F. Stanton},
+	Howpublished = {private communication},
+	Year = {2007}}
+
+@article{ccsd_2,
+	Author = {S. R.~Gwaltney and M.~Head-Gordon},
+	Journal = jcp,
+	Pages = {2014-2021},
+	Title = {A second-order perturbative correction to the coupled-cluster singles and doubles model: {CCSD(2)}},
+	Volume = {115},
+	Year = {2001}}
+
+@article{Scuseria:87:BD,
+	Annote = {Scuseria and Schaefer investigate the possibilities of optimizing
+      orbitals for the CCD and CCSD methods.  They employ the Z vector
+      approach in the orbital optimization.  They find that the CCD method
+      with optimized orbitals yields results very similar to CCSD, and when
+      the CCD-optimized orbitals are used as a basis for a subsequent CCSD
+      calculation, the singles amplitudes ($t_i^a$) are very small ($\approx
+      10^{-5}$), indicating a similarity to Brueckner orbitals and suggesting
+      that there is no need for orbital relaxation of these orbitals.  They
+      claim the optimized orbitals do not necessarily lead to lower energies
+      than SCF orbitals, since CC is nonvariational.  The orbital optimization
+      procedure for CCSD is numerically difficult and may be due to the
+      already excellent treatment of singles.},
+	Author = {G.E.~Scuseria and H.F.~Schaefer},
+	Journal = cpl,
+	Pages = {354-358},
+	Title = {The Optimization of Molecular Orbitals for Coupled Cluster Wavefunctions},
+	Volume = {142},
+	Year = {1987}}
+
+@article{Chiles:81,
+	Annote = {Implements CCD using a SCEP type approach and compares to various
+      CEPA methods.  Some models for including singles are considered.
+      Applications to the weakly interacting systems {He$_2$}, {Be$_2$}, and
+      {Mg$_2$}.  CCD is expected to be better for these systems than CI-type
+      approaches due to the size-extensivity of CCD, but in fact CCD does not
+      do very well for Be$_2$ compared to large-scale CI results of Liu {\em
+      et al.}  The various CEPA approaches show wide variation.  The authors
+      also consider using orbitals optimized such that projection of the CCD
+      wavefunction onto the singles space gives zero residues; they call this
+      the CCD(${\hat T}_1 = 0$) method, and it is identical to Brueckner
+      CCD---this paper seems to be the first implementation.  The paper also
+      contains some interesting comments about variation vs. projection and
+      the difference between variational and standard CC energies, and how
+      singles coefficients can be absorbed into orbitals for any correlated
+      method.},
+	Author = {R.A.~Chiles and C.E.~Dykstra},
+	Journal = jcp,
+	Pages = {4544-4556},
+	Title = {An electron pair operator approach to coupled cluster wave functions. {A}pplication to {He$_2$}, {Be$_2$}, and {Mg$_2$} and comparison with {CEPA} methods},
+	Volume = {74},
+	Year = {1981}}
+
+@article{Stolarczyk:94:CASCC,
+	Annote = {Proposal: use CC model on top of CASSCF wavefunction
+          to describe dynamical correlation. Like CC from
+          similarity-transformed CASSCF hamiltonian. Limited
+          to CASSCF wavefunctions dominated by single
+          el. configuration. Has references to MR-CC},
+	Author = {L.Z.~Stolarczyk},
+	Journal = cpl,
+	Pages = {1-6},
+	Title = {Complete Active Space coupled-cluster method. {E}xtension of single-reference coupled-cluster method using {C}{A}{S}{S}{C}{F} wavefunction},
+	Volume = {217},
+	Year = {1994}}
+
+@incollection{HeadGordon:97:LinResp,
+	Address = {Singapore},
+	Author = {M.~Head-Gordon and T. J.~Lee},
+	Booktitle = {Modern Ideas in Coupled Cluster Theory},
+	Editor = {R. J.~Bartlett},
+	Publisher = {World Scientific},
+	Title = {Single Reference Coupled Cluster and Perturbation Theories of Electronic Excitation Energies},
+	Year = {1997}}
+
+@article{Rico:93:LinResp,
+	Annote = {Linear Response theories for excited states are
+          considered for CISD, QCISD, and CCSD. Derivation,
+          general equations are presented. Numerical examples
+          discussed: Be, CH$^+$, CH$_2$, SiH$_2$, H$_2$O},
+	Author = {R. J.~Rico and M.~Head-Gordon},
+	Journal = cpl,
+	Pages = {224-232},
+	Title = {Single-reference theories of molecular excited states with single and double substitutions},
+	Volume = {213},
+	Year = {1993}}
+
+@article{Handy:89:BD,
+	Annote = {Handy {\em et al.} present the Brueckner coupled-cluster doubles
+      (B-CCD) method, which they refer to simply as BD theory.  This method
+      had actually been implemented before by Chiles and Dykstra in 1981
+      (Ref.~\protect{\citen{Chiles:81}}), and a related method had been
+      discussed by Scuseria and Schaefer
+      (Ref.~\protect{\citen{Scuseria:87:BD}}) and others.  The method is shown
+      to incorporate more at fifth order of MBPT than either CCSD or QCISD.
+      Some test applications are presented.  The method is simpler than CCSD
+      because all the singles amplitudes are zeroed, but it requires iterative
+      solution of the orbitals, which means a transformation of the AO
+      integrals is required for each iteration.  A (T) correction is given,
+      and analytic gradient theory for the method is sketched.  It is seen
+      that for water, the RHF/UHF instability moves farther out with BD.},
+	Author = {N.C.~Handy and J.A.~Pople and M.~Head-Gordon and K.~Raghavachari and G.W.~Trucks},
+	Journal = cpl,
+	Pages = {185-192},
+	Title = {Size-Consistent {B}rueckner Theory Limited to Double Substitutions},
+	Volume = {164},
+	Year = {1989}}
+
+@article{Raghavachari:90:BDT,
+	Annote = {The authors present the spin-orbital equations for the Brueckner
+      coupled-cluster method including doubles and full triples (BCCDT or
+      BDT).  They note that this method is identical in fifth order
+      perturbation theory to CCSDT based on Hartree-Fock orbitals, but the
+      equations are much simpler.  Some preliminary results are discussed.},
+	Author = {K.~Raghavachari and J.A.~Pople and E.S.~Replogle and M.~Head-Gordon and N.C.~Handy},
+	Journal = cpl,
+	Pages = {115-121},
+	Title = {Size-consistent {B}rueckner Theory Limited to Double and Triple Substitutions},
+	Volume = {167},
+	Year = {1990}}
+
+@article{Pople:87,
+	Annote = {This paper introduces the Quadratic Configuration Interaction
+      method and gives explicit equations for QCISD, QCISD(T), and QCISDT.
+      Quadratic CI is size-extensive because it adds certain quadratic terms
+      to the left hand size of the CI projection equations necessary to cancel
+      seemingly-linear but actually-quadratic terms on the right hand sides
+      (the RHS has amplitudes times the correlation energy, and the
+      correlation energy itself can be written as linear in the amplitudes).
+      Results of QCISD and QCISD(T) are presented for a number of small
+      molecules with a DZP basis for which FCI benchmark energies are
+      available.  Davidson-corrected CISD actually does surprisingly well,
+      while QCISD seems comparable to CCSD.  QCISD(T) seems very good
+      indeed.},
+	Author = {J.A.~Pople and M.~Head-Gordon and K.~Raghavachari},
+	Journal = jcp,
+	Pages = {5968-5975},
+	Title = {Quadratic configuration interaction. {A} general technique for determining electron correlation energies},
+	Volume = {87},
+	Year = {1987}}
+
+@article{Kaldor:91:SymmBreak,
+	Annote = {The multireference Fock-Space coupled cluster method
+          with single and double excitations was applied to
+          study equilibrium configuration of the ground and
+          excited states of {N}{O}$_2$,{N}{S}$_2$
+          and {N}{O}$_3$ radicals. Concludes that probably
+          there is no symmetry breaking but JT-effect.},
+	Author = {U.~Kaldor},
+	Journal = cpl,
+	Pages = {131-135},
+	Title = {Symmetry breaking in radicals: {N}{O}$_2$, {N}{S}$_2$ and {N}{O}$_3$},
+	Volume = {185},
+	Year = {1991}}
+
+@article{Kaldor:93:HS,
+	Annote = {The Hilbert-space multi-reference CCSD method is
+          applied to excited states of the N$_2$
+          molecule. Symmetry breaking was found},
+	Author = {S.~Berkovic and U.~Kaldor},
+	Journal = jcp,
+	Number = {4},
+	Pages = {3090-3094},
+	Title = {Degeneracy breaking in the {H}ilbert-space coupled cluster method},
+	Volume = {98},
+	Year = {1993}}
+
+@article{Mukh:91:LinResp,
+	Annote = {Size-extensivity of LR-CC and equivalences of EOM/MR/LR-CC discussed.},
+	Author = {D.~Mukhopadhyay and S.~Mukhopadhyay and R.~Chaudhuri and D.~Mukherjee},
+	Journal = tca,
+	Pages = {441-467},
+	Title = {Aspects of separability in the coupled cluster based direct methods for energy differences},
+	Volume = {80},
+	Year = {1991}}
+
+@article{Haque:84:MRCC,
+	Author = {M.~Haque and D.~Mukherjee},
+	Journal = jcp,
+	Number = {10},
+	Pages = {5058-5069},
+	Title = {Application of cluster expansion techniques to open-shells: {C}alculation of difference energies},
+	Volume = {80},
+	Year = {1984}}
+
+@article{Koch:95,
+	Annote = {Compares CC with FCI for excited singlet states of the title
+      molecules at fixed geometries.},
+	Author = {H.~Koch and O.~Christiansen and P.~J{\o}rgensen and J.~Olsen},
+	Journal = cpl,
+	Pages = {75-82},
+	Title = {Excitation energies of {BH}, {CH$_2$}, and {Ne} in full configuration interaction and the hierarchy {CCS}, {CC2}, {CCSD}, and {CC3} of coupled cluster models},
+	Volume = {244},
+	Year = {1995}}
+
+@article{Koch:CC2orig:1995,
+	Author = {O.~Christiansen and H.~Koch and P.~J{\o}rgensen},
+	Journal = cpl,
+	Pages = {409-418},
+	Title = {THE 2ND-ORDER APPROXIMATE COUPLED-CLUSTER SINGLES AND DOUBLES MODEL {CC2}},
+	Volume = {243},
+	Year = {1995}}
+
+@article{Kaldor:91:FSCC,
+	Annote = {FSCC method and application to atomic and molecular
+          systems. Importance of size-extensivity is
+          demonstrated by electron affinities of alkali
+          atoms. Excited states. Intruder states due to
+          incomplete active spaces. Examples: N$_2$, Li$_2$, Be.},
+	Author = {U.~Kaldor},
+	Journal = tca,
+	Pages = {427-439},
+	Title = {The {F}ock space coupled cluster method: {T}heory and application},
+	Volume = {80},
+	Year = {1991}}
+
+@incollection{Kaldor:92:MRCC,
+	Annote = {Formalism and applications of MRCC},
+	Author = {U.~Kaldor},
+	Booktitle = {Applied Many-Body Methods in Spectroscopy and Electronic Structure},
+	Editor = {D.~Mukherjee},
+	Pages = {213-231},
+	Publisher = {Plenum Press},
+	Title = {Multireference coupled-cluster approach to spectroscopic constants: {M}olecular geometries and harmonic frequencies},
+	Year = {1992}}
+
+@article{Kaldor:95,
+	Annote = {Ionization potentials for atoms and atomic ions by FSCC},
+	Author = {S.R.~Hughes and U.~Kaldor},
+	Journal = ijqc,
+	Pages = {127-132},
+	Title = {The coupled-cluster method in high sectors of the {F}ock space},
+	Volume = {55},
+	Year = {1995}}
+
+@article{Meissner:91:EOMCC,
+	Annote = {Comparison between transformed hamiltonian (EOMCC)
+          and MRCC (FSCC). Also, size-extensivity of EOM is discussed},
+	Author = {L.~Meissner and R. J.~Bartlett},
+	Journal = jcp,
+	Number = {10},
+	Pages = {6670-6675},
+	Title = {Transformation of the {H}amiltonian in excitation energy calculations: comparison between {F}ock-space multireference coupled-cluster and equation-of-motion coupled-cluster methods},
+	Volume = {94},
+	Year = 1991}
+
+@article{Stanton:93:EOMCC,
+	Annote = {A mostly theoretical paper, with some applications to {C$_4$} and
+      comparisons to full CI results for Be and {CH$^+$} and to MRCI results
+      for {H$_2$O}.  Provides a unified overview of the equation-of-motion
+      coupled-cluster method and is a useful paper to cite for the method as a
+      whole.},
+	Author = {J. F.~Stanton and R. J.~Bartlett},
+	Journal = jcp,
+	Pages = {7029-7039},
+	Title = {The equation of motion coupled-cluster method. {A} systematic biorthogonal approach to molecular excitation energies, transition probabilities, and excited state properties},
+	Volume = {98},
+	Year = {1993}}
+
+@article{Comeau:93:EOMCC,
+	Author = {D. C.~Comeau and R. J.~Bartlett},
+	Journal = cpl,
+	Pages = {414-423},
+	Title = {The equation-of-motion coupled-cluster method. {A}pplications to open- and closed-shell reference states},
+	Volume = {207},
+	Year = {1993}}
+
+@article{Stolarczyk:84,
+	Annote = {The authors give a general discussion of coupled-cluster theory
+      with Brueckner orbitals.  After a brief review of coupled-cluster theory
+      and its relationship to configuration interaction, they compare the use
+      of Hartree-Fock, natural, and Brueckner orbitals in a unified framework
+      as extrema of some functional of the reference determinant.  The
+      Brueckner orbitals are defined as those which maximize the overlap of
+      the reference determinant with the total wavefunction, and this leads to
+      the condition that the total wavefunction has no contribution from the
+      singles manifold (or, equivalently, ${\hat T}_1 = 0$). Brueckner
+      orbitals and NO's differ from HF at 2nd order in MBPT, but Brueckner
+      orbitals and NO's differ from each other at 3rd order.  Finally, the
+      B-CC procedure is formulated as a self-consistent orbital optimization
+      procedure using an effective one-electron correlation potential (coming
+      from the $T$ amplitudes) to give the Brueckner-Hartree-Fock method.
+      Motivations for this method are given, including that HF can fail for
+      some metallic systems.},
+	Author = {L. Z.~Stolarczyk and H. J.~Monkhorst},
+	Journal = ijqcs,
+	Pages = {267-291},
+	Title = {Coupled-Cluster Method with Optimized Reference State},
+	Volume = {18},
+	Year = {1984}}
+
+@article{Stolarczyk:85:MRCC,
+	Author = {L.~Stolarczyk and H. J.~Monkhorst},
+	Journal = pra,
+	Number = {2},
+	Optannote = {Bartlett cites as ref to MRCC},
+	Pages = {725-742},
+	Title = {Coupled-cluster method in {F}ock space. {I}. {G}eneral formalism},
+	Volume = {32},
+	Year = {1985}}
+
+@article{Stolarczyk:85:MRCC:1,
+	Author = {L.~Stolarczyk and H.J.~Monkhorst},
+	Journal = pra,
+	Number = {2},
+	Optannote = {Bartlett cites as ref to MRCC},
+	Pages = {743-747},
+	Title = {Coupled-cluster method in {F}ock space. {I}{I}. {B}rueckner-{H}artree-{F}ock method},
+	Volume = {32},
+	Year = {1985}}
+
+@article{Stolarczyk:88:MRCC:1,
+	Author = {L.~Stolarczyk and H.J.~Monkhorst},
+	Journal = pra,
+	Number = {6},
+	Optannote = {Bartlett cites as ref to MRCC},
+	Pages = {1908-1925},
+	Title = {Coupled-cluster method in {F}ock space. {I}{I}{I}. {O}n similarity transformation of operators in {F}ock space},
+	Volume = {37},
+	Year = {1988}}
+
+@article{Stolarczyk:88:MRCC:2,
+	Author = {L.~Stolarczyk and H.J.~Monkhorst},
+	Journal = pra,
+	Number = {6},
+	Optannote = {Bartlett cites as ref to MRCC},
+	Pages = {1926-1933},
+	Title = {Coupled-cluster method in {F}ock space. {I}{V}. {C}alculation of expectation values and transition moments},
+	Volume = {37},
+	Year = {1988}}
+
+@article{Koch:94:LRB,
+	Annote = {Derivation of LR from BCC up to second order
+          properties. Time-dependent BWF.},
+	Author = {H.~Koch and R.~Kobayashi and P.~J{\o}rgensen},
+	Journal = ijqc,
+	Pages = {835-848},
+	Title = {Brueckner Coupled Cluster Response Functions},
+	Volume = {49},
+	Year = {1994}}
+
+@article{Pal:88:MRCC,
+	Annote = {Bartlett gives this paper as a review for MRCC methods},
+	Author = {S.~Pal and M.~Rittby and R. J.~Bartlett and D.~Sinha and D.~Mukherjee},
+	Journal = jcp,
+	Number = {7},
+	Pages = {4357-4366},
+	Title = {Molecular applications of multireference coupled-cluster methods using an incomplete model space: {D}irect calculation of excitation energies},
+	Volume = {88},
+	Year = {1988}}
+
+@article{Pal:86:XCC,
+	Annote = {XCC-UCC},
+	Author = {S.~Pal},
+	Journal = pra,
+	Pages = {2240-2244},
+	Title = {Analysis of coupled-cluster approach for study of static properties},
+	Volume = {33},
+	Year = {1986}}
+
+@article{Pal:89:MRCC,
+	Annote = {Bartlett gives this paper as a review for MRCC methods},
+	Author = {M.~Rittby and S.~Pal and R. J.~Bartlett},
+	Journal = jcp,
+	Number = {6},
+	Pages = {3214-3220},
+	Title = {Multireference coupled-cluster method: {I}onization potentials and excitation energies for ketene and diazomethane},
+	Volume = {90},
+	Year = {1989}}
+
+@article{Kaldor:86:MRCC,
+	Author = {U.~Kaldor},
+	Journal = ijqcs,
+	Optannote = {Bartlett cites this paper when talking about excited states},
+	Pages = {445},
+	Volume = {20},
+	Year = {1988}}
+
+@incollection{Kaldor:89:MRCC,
+	Author = {U.~Kaldor},
+	Booktitle = {Lecture notes in chemistry},
+	Editor = {U.~Kaldor},
+	Optannote = {Bartlett cites this paper when talking about excited states},
+	Pages = {199-214},
+	Publisher = {Springer, Heidelberg},
+	Title = {Atomic and molecular applications of multireference coupled-cluster method},
+	Volume = {52},
+	Year = {1989}}
+
+@article{Bartlett:84:LinResp,
+	Annote = {EOM is derived. Diagrams and transformed
+          hamiltonians are presented},
+	Author = {H.~Sekino and R. J.~Bartlett},
+	Journal = ijqc,
+	Pages = {255-265},
+	Title = {A Linear response, Coupled-Cluster theory for excitation energy},
+	Volume = {26},
+	Year = {1984}}
+
+@article{Monkhorst:77:CCPROP,
+	Annote = {Calculation of properties through Linear Response
+          TDCC is derived},
+	Author = {H.J.~Monkhorst},
+	Journal = ijqcs,
+	Pages = {421-432},
+	Title = {Calculation of properties with the Coupled-Cluster method},
+	Volume = {11},
+	Year = {1977}}
+
+@article{Koch:90:LinResp,
+	Annote = {Linear and quadratic response functions determined
+          for CC reference. Expressions for excitation
+          energies, transition m.elements, etc},
+	Author = {H.~Koch and P.~J{\o}rgensen},
+	Journal = jcp,
+	Number = {5},
+	Pages = {3333-3344},
+	Title = {Coupled cluster response functions},
+	Volume = {93},
+	Year = {1990}}
+
+@article{Stanton:94:AnlDer,
+	Author = {J. F.~Stanton and J.~Gauss},
+	Journal = jcp,
+	Number = {10},
+	Pages = {8938-8944},
+	Title = {Analytic energy derivatives for ionized states described by the equation-of-motion coupled cluster method},
+	Volume = {101},
+	Year = {1994}}
+
+@article{Christiansen:96:benzene,
+	Author = {O.~Christiansen and H.~Koch and A.~Halkier and P.~J{\o}rgensen and T.~Helgaker and {A. S. de Meraz}},
+	Journal = jcp,
+	Number = {16},
+	Pages = {6921-6939},
+	Title = {Large-scale calculations of excitation energies in coupled cluster theory: the singlet excited states of benzene},
+	Volume = {105},
+	Year = {1996}}
+
+@article{Koch:90:CCLR,
+	Author = {H.~Koch and H.J.Aa.~Jensen and P.~J{\o}rgensen and T.~Helgaker},
+	Journal = jcp,
+	Number = {5},
+	Optnote = {Be CH+ CO H2O},
+	Pages = {3345-3350},
+	Title = {Excitation energies from the coupled clusters singles and doubles linear response functions ({C}{C}{S}{D}{L}{R}). {A}pplications to {Be}, {C}{H}$^+$, {C}{O}, and {H}$_2${O}},
+	Volume = {93},
+	Year = {1990}}
+
+@article{Geersten:89,
+	Annote = {EOM and applications},
+	Author = {J.~Geertsen and M.~Rittby and R. J.~Bartlett},
+	Journal = cpl,
+	Pages = {57-62},
+	Title = {The equation-of-motion coupled-cluster method: {E}xcitation energies of {B}e and {C}{O}},
+	Volume = {164},
+	Year = {1989}}
+
+@article{Pople:78:CCD,
+	Annote = {Possibly the first description of how to implement CCD.
+      Equations are presented in spin-orbital notation, allowing UHF
+      references. Another paper in the same issue by Bartlett and Purvis
+      describes CCD for RHF references.  Comparisons are made to MP4(DQ) and
+      results are found to be similar.  The method is applied to 1,2 proton
+      transfers: HCCH $\rightarrow$ H$_2$CC, HCN $\rightarrow$ CNH, H$_2$CO
+      $\rightarrow$ HCOH, and HNNH $\rightarrow$ H$_2$NN.},
+	Author = {J. A.~Pople and R.~Krishnan and H. B.~Schlegel and J. S.~Binkley},
+	Journal = ijqc,
+	Pages = {545-560},
+	Title = {Electron Correlation Theories and Their Application to the Study of Simple Reaction Potential Surfaces},
+	Volume = {14},
+	Year = {1978}}
+
+@article{Scuseria:86:DIIS,
+	Annote = {Scuseria et al. investigate the use of Pulay's direct inversion
+      of the iterative subspace (DIIS) method
+      (ref.~{\protect{\citen{Pulay:80}}}) to accelerate the convergence of the
+      cluster amplitudes in the coupled-cluster singles and doubles (CCSD)
+      model.  Purvis and Bartlett had previously reported a different
+      acceleration method for coupled cluster, the reduced linear equation
+      (RLE) method, but according to Scuseria et al., they had not published
+      results for this method when used in conjunction with the CCSD model in
+      particular. This paper reports that the number of iterations is reduced
+      to between 30 and {70\%} of that required for the unaccelerated CCSD
+      iterative procedure.},
+	Author = {G. E.~Scuseria and T. J.~Lee and H. F.~Schaefer},
+	Journal = cpl,
+	Pages = {236-239},
+	Title = {Accelerating the Convergence of the Coupled-Cluster Approach. The Use of the {DIIS} Method},
+	Volume = {130},
+	Year = {1986}}
+
+@article{Hampel:92,
+	Annote = {The authors show how to perform QCISD, CCSD, and B-CCD as matrix
+      operations while avoiding the full AO to MO transformation of the
+      two-electron integrals.  This makes B-CCD in particular less expensive,
+      and in fact their timings indicate that B-CCD in their formulation is
+      slightly faster than CCSD (but slower than QCISD).  They also introduce
+      a DIIS procedure on a set of independent parameters describing the
+      transformation of the orbitals form an arbitrary initial set to the
+      final Brueckner orbitals.  Their particular scheme for doing this seems
+      unnecessarily complex, but the general idea is very valuable.},
+	Author = {C.~Hampel and K.A.~Peterson and H.-J.~Werner},
+	Journal = cpl,
+	Pages = {1-12},
+	Title = {A comparison of the efficiency and accuracy of the quadratic configuration interaction (QCISD), coupled cluster (CCSD), and Brueckner coupled cluster (BCCD) methods},
+	Volume = {190},
+	Year = {1992}}
+
+@article{Kobayashi:94,
+	Annote = {Kobayashi, Amos, and Handy present results of computations on
+      several small molecules using DZP, TZ2P, and in some cases, QZ3Pf basis
+      sets.  BD gives very similar results to CCSD for most molecules,
+      although for real problem cases (such as the antisymmetric stretching
+      frequency of ozone, considered in this paper), the difference can be
+      larger.  BD(T) is found to give slightly shorter bond lengths than
+      CCSD(T), suggesting that BD(T) may converge faster with respect to
+      increasing basis set size.},
+	Author = {R.~Kobayashi and R. D.~Amos and N. C.~Handy},
+	Journal = jcp,
+	Pages = {1375-1379},
+	Title = {Large basis set calculations using Brueckner theory},
+	Volume = {100},
+	Year = {1994}}
+
+@article{Stanton:92:NO3,
+	Annote = {Stanton, Gauss, and Bartlett explore the use of Brueckner
+      orbitals in coupled-cluster procedures for three molecules which exhibit
+      symmetry breaking.  They find that in all cases, regardless of the
+      symmetry properties of the starting orbitals, the Brueckner procedure
+      yields a symmetry-conserving reference.  This is not the case for
+      Brueckner orbitals from the CISD method, and the difference is ascribed
+      to the exponential form of singles in CC theory.  Differences between
+      B-CC and QRHF-CC are found to be very small, and the QRHF-CC results are
+      symmetry-conserving as well.},
+	Author = {J. F.~Stanton and J.~Gauss and R. J.~Bartlett},
+	Journal = jcp,
+	Pages = {5554-5559},
+	Title = {On the choice of orbitals for symmetry breaking problems with application to {NO$_3$}},
+	Volume = {97},
+	Year = {1992}}
+
+@article{Paldus:98:RMRCC,
+	Annote = {RMR-CC method is discussed and applied. Reduced
+          means that final CC-wavefunction is
+          single-reference, and excitations included are
+          defined from some external source, such as small
+          MRCI calculations. No intruder state problem},
+	Author = {X.~Li and J.~Paldus},
+	Journal = jcp,
+	Number = {2},
+	Pages = {637-648},
+	Title = {Reduced multireference coupled cluster method. {I}{I}. {A}pplication to potential energy surfaces of {H}{F},{F}$_2$, and {H}$_2${O}},
+	Volume = {108},
+	Year = {1998}}
+
+@incollection{Paldus:94:MRCCRev,
+	Annote = {Cited as a review for MRCC},
+	Author = {J.~Paldus},
+	Booktitle = {Relativistic and Electron Correlation Effects in Molecules and Solids},
+	Editor = {G.L.~Malli},
+	Pages = {207-282},
+	Publisher = {Plenum, New-York},
+	Series = {NATO ASI Series B: Physics},
+	Volume = {318},
+	Year = {1994}}
+
+@article{Paldus:95:UGACCC,
+	Author = {X.~Li and J.~Paldus},
+	Journal = jcp,
+	Optannote = {test calculations for OH, CH3, NH2, CN},
+	Optnumber = {22},
+	Pages = {8897-8905},
+	Title = {Unitary group based state-selective coupled-cluster method: {C}omparison of the first order interacting space and the full single and double excitation space approximations},
+	Volume = {102},
+	Year = {1995}}
+
+@article{Paldus:94:AUTUGACC,
+	Author = {X.~Li and J.~Paldus},
+	Journal = jcp,
+	Optnumber = {10},
+	Pages = {8812-8826},
+	Title = {Automation of the implementation of spin-adapted open-shell coupled-cluster theories relying on the unitary group formalism},
+	Volume = {101},
+	Year = {1994}}
+
+@incollection{Paldus:88:UGACC,
+	Author = {J.~Paldus},
+	Booktitle = {Mathematical frontiers in computational chemical physics},
+	Editor = {D.G.~Truhlar},
+	Optannote = {Unitary group approach},
+	Pages = {262-299},
+	Publisher = {Springer, Berlin},
+	Year = {1988}}
+
+@incollection{Paldus:92:MRCCRev,
+	Annote = {Cited as a review for MRCC},
+	Author = {J.~Paldus},
+	Booktitle = {Methods in Computational Molecular Physics},
+	Editor = {S.~Wilson and G.H.F.~Diercksen},
+	Pages = {99-194},
+	Publisher = {Plenum, New-York},
+	Series = {NATO ASI Series B: Physics},
+	Title = {Coupled cluster theory},
+	Volume = {293},
+	Year = {1992}}
+
+@incollection{Helgaker:92:CVA,
+	Author = {T.~Helgaker and P. J{\mbox{\o}}rgensen},
+	Booktitle = {Methods in Computational Molecular Physics},
+	Editor = {S.~Wilson and G.H.F.~Diercksen},
+	Optannote = {Lagrange multiplier technique for CC},
+	Pages = {353-421},
+	Publisher = {Plenum, New-York},
+	Series = {NATO ASI Series B: Physics},
+	Title = {Calculation of geometrical derivatives in molecular electronic structure theory},
+	Volume = {293},
+	Year = {1992}}
+
+@article{Piecuch:93:MRCC,
+	Author = {P.~Piecuch and N.~Oliphant and L.~Adamowicz},
+	Journal = jcp,
+	Number = {1},
+	Pages = {1875-1900},
+	Title = {A state-selective multireference coupled-cluster theory employing the single-reference formalism},
+	Volume = {99},
+	Year = {1993}}
+
+@incollection{Mahapatra:97:MRCC,
+	Address = {Singapore},
+	Author = {U. S.~Mahapatra and B.~Datta and D.~Mukherjee},
+	Booktitle = {Recent Advances in Coupled-Cluster Methods},
+	Editor = {R. J.~Bartlett},
+	Pages = {155-181},
+	Publisher = {World Scientific},
+	Series = {Recent Advances in Computational Chemistry},
+	Title = {A State-Specific Multi-Reference Coupled Cluster Approach for Treating Quasi-Degeneracy},
+	Volume = {3},
+	Year = {1997}}
+
+@article{Adamowicz:00:CASCCD,
+	Author = {V.V.~Ivanov and L.~Adamowicz},
+	Journal = jcp,
+	Number = {21},
+	Pages = {9258-9268},
+	Title = {{C}{A}{S}{C}{C}{D}: {C}oupled-cluster method with double excitations and the {C}{A}{S} reference},
+	Volume = {112},
+	Year = {2000}}
+
+@article{Adamowicz:95:MRCC,
+	Author = {P.~Piecuch and L.~Adamowicz},
+	Journal = jcp,
+	Number = {2},
+	Pages = {898-904},
+	Title = {Breaking bonds with the state-selective multireference coupled-cluster method employing the single-reference formalism},
+	Volume = {102},
+	Year = {1995}}
+
+@article{MHG:97:CIS_D,
+	Author = {M.~Oumi and D.~Maurice and T.J.~Lee and M.~Head-Gordon},
+	Journal = cpl,
+	Pages = {151-157},
+	Title = {A diagnostic for the applicability of the {C}{I}{S} and {C}{I}{S}({D}) excitation energy methods},
+	Volume = {279},
+	Year = {1997}}
+
+@article{Gwaltney:CCEX:96,
+	Author = {S. R.~Gwaltney and M.~Nooijen and R. J.~Bartlett},
+	Journal = cpl,
+	Pages = {189-198},
+	Title = {Simplified methods for equation-of-motion coupled-cluster excited state calculations},
+	Volume = {248},
+	Year = {1996}}
+
+@article{Gwaltney:PARTEOM:99,
+	Author = {S. R.~Gwaltney and R. J.~Bartlett},
+	Journal = jcp,
+	Optnote = {EOM-CC and P-EOM-MBPT(2) gradients; H2, BH, CO, N2, BF, C2},
+	Optnumber = {1},
+	Pages = {62-71},
+	Title = {Gradients for the partitioned equation-of-motion coupled-cluster method},
+	Volume = {110},
+	Year = {1999}}
+
+@article{Stanton:DM:94,
+	Author = {J. F.~Stanton},
+	Journal = jcp,
+	Number = {10},
+	Pages = {8928-8937},
+	Title = {Separability properties of reduced and effective density matrices in the equation-of-motion coupled cluster method},
+	Volume = {101},
+	Year = {1994}}
+
+@article{Koch:99:LROO,
+	Author = {T. B.~Pedersen and H.~Koch and C.~H{\"a}ttig},
+	Journal = jcp,
+	Number = {17},
+	Pages = {8318-8327},
+	Title = {Gauge invariant coupled cluster response theory},
+	Volume = {110},
+	Year = {1999}}
+
+@article{Koch:97:LR,
+	Author = {T. B.~Pedersen and H.~Koch},
+	Journal = jcp,
+	Number = {19},
+	Pages = {8059-8072},
+	Title = {Coupled cluster response functions revisited},
+	Volume = {106},
+	Year = {1997}}
+
+@article{Aiga:94:BCCD,
+	Author = {F.~Aiga and K.~Sasagane and R.~Itoh},
+	Journal = ijqc,
+	Pages = {87-97},
+	Title = {Frequency dependent hyperpolarizabilities in the {B}rueckner coupled-cluster theory},
+	Volume = {51},
+	Year = {1994}}
+
+@article{Harris:77:CCEX,
+	Author = {F. E.~Harris},
+	Journal = ijqcs,
+	Pages = {403-411},
+	Title = {Coupled-cluster method for excitation energies},
+	Volume = {11},
+	Year = {1977}}
+
+@article{Piecuch:99:CCSDt,
+	Author = {P.~Piecuch and S. A.~Kucharski and R. J.~Bartlett},
+	Journal = jcp,
+	Number = {13},
+	Pages = {6103-6122},
+	Title = {Coupled-cluster methods with internal and semi-internal triply and quadruply excited clusters: {C}{C}{S}{D}t and {C}{C}{S}{D}tq approaches},
+	Volume = {110},
+	Year = {1999}}
+
+@article{Piecuch:00:EOMCCSDt,
+	Author = {K.~Kowalski and P.~Piecuch},
+	Journal = jcp,
+	Number = {19},
+	Pages = {8490-8502},
+	Title = {The active space equation-of-motion coupled-cluster methods for excited electronic states: the {E}{O}{M}{C}{C}{S}{D}t approach},
+	Volume = {113},
+	Year = {2000}}
+
+@article{Piecuch:01:EOMCCSDt,
+	Author = {K.~Kowalski and P.~Piecuch},
+	Journal = jcp,
+	Number = {2},
+	Pages = {643-651},
+	Title = {The active space equation-of-motion coupled-cluster methods for excited electronic states: {F}ull {E}{O}{M}{C}{C}{S}{D}t},
+	Volume = {115},
+	Year = {2001}}
+
+@article{Piecuch:01:EOMCCSDt-cpl,
+	Author = {K.~Kowalski and P.~Piecuch},
+	Journal = cpl,
+	Pages = {237-246},
+	Title = {Excited-state potential energy curves of CH+: a comparison of the {EOMCCSD}t and full {EOMCCSDT} results},
+	Volume = {347},
+	Year = {2001}}
+
+@article{Kowalski:05:EOMCCSDt,
+	Author = {K.~Kowalski and S.~Hirata and M.~W\l{}och and P.~Piecuch and T. L.~Windus},
+	Doi = {10.1063/1.2001656},
+	Journal = jcp,
+	Pages = {074319},
+	Title = {Active-space coupled-cluster study of electronic states of {Be3}},
+	Volume = {123},
+	Year = {2005},
+	Bdsk-Url-1 = {https://doi.org/10.1063/1.2001656}}
+
+@article{Kowalski:06:CR-EOMCC-parallel,
+	Author = {P.~Piecuch and S.~Hirata and K.~Kowalski and P. D.~Fan and T. L.~Windus},
+	Doi = {10.1002/qua.20753},
+	Journal = ijqc,
+	Pages = {79-97},
+	Title = {Automated derivation and parallel computer implementation of renormalized and active-space coupled-cluster methods},
+	Volume = {106},
+	Year = {2006},
+	Bdsk-Url-1 = {https://doi.org/10.1002/qua.20753}}
+
+@article{Stanton:SSq:94,
+	Author = {J. F.~Stanton},
+	Journal = jcp,
+	Number = {1},
+	Pages = {371-374},
+	Title = {On the extent of spin contamination in open-shell coupled-cluster wave functions},
+	Volume = {101},
+	Year = {1994}}
+
+@article{Bartlett:SSq:88,
+	Author = {G. D.~{Purvis III} and H.~Sekino and R. J.~Bartlett},
+	Journal = {Collect.~Czech.~Chem.~Commun.},
+	Pages = {2203-2213},
+	Title = {Multiplicity of many-body wavefunctions using unrestricted {H}artree-{F}ock reference functions},
+	Volume = {53},
+	Year = {1988}}
+
+@article{Bartlett:C4:86,
+	Author = {D. H.~Magers and R. J.~Harrison and R. J.~Bartlett},
+	Journal = jcp,
+	Pages = {3284-3290},
+	Title = {Isomers and excitation energies of {C}$_4$},
+	Volume = {84},
+	Year = {1986}}
+
+@article{Paldus:UHMRCC:96,
+	Author = {P.~Piecuch and R.~Tobola and J.~Paldus},
+	Journal = pra,
+	Pages = {1210-1241},
+	Title = {Approximate account of connected quadruply excited clusters in single-reference coupled-cluster theory via cluster analysis of the projected unrestricted {H}artree-{F}ock wave function},
+	Volume = {54},
+	Year = {1996}}
+
+@article{Piecuch:90:CONAMP,
+	Author = {P.~Piecuch and S.~Zarrabian and J.~Paldus and J.~\v{C}\'{i}\v{z}ek},
+	Journal = prb,
+	Optannote = {MRCC},
+	Pages = {3351},
+	Volume = {42},
+	Year = {1990}}
+
+@article{Paldus:92:CONAMP,
+	Author = {J.~Paldus and P.~Piecuch},
+	Journal = ijqc,
+	Optannote = {MRCC},
+	Pages = {135},
+	Volume = {42},
+	Year = {1992}}
+
+@article{Bartlett:84:MRLCC,
+	Author = {W. D.~Laidig and R. J.~Bartlett},
+	Journal = cpl,
+	Optannote = {Linearized MRCC method},
+	Pages = {424-430},
+	Title = {A multi-reference coupled-cluster method for molecular applications},
+	Volume = {104},
+	Year = {1984}}
+
+@article{Bartlett:F2N2:86,
+	Author = {W. D. Laidig and P. Saxe and R. J. Bartlett},
+	Journal = jcp,
+	Pages = {887-907},
+	Title = {The description of {N}$_2$ and {F}$_2$ potential energy surfaces using multireference coupled cluster theory},
+	Volume = {86},
+	Year = {1987}}
+
+@article{Stanton:EOMGRAD:93,
+	Author = {J. F. Stanton},
+	Journal = jcp,
+	Number = {11},
+	Pages = {8840-8847},
+	Title = {Many-body methods for excited state potential energy surfaces. {I}. {G}eneral theory of energy gradients for the equation-of-motion coupled-cluster method},
+	Volume = {99},
+	Year = {1993}}
+
+@article{Stanton:EOMSECDER:95,
+	Author = {J. F. Stanton and J. Gauss},
+	Journal = jcp,
+	Number = {20},
+	Pages = {8931-8943},
+	Title = {Many-body methods for excited state potential energy surfaces. {I}{I}. {A}nalytic second derivatives for excited state energies in the equation-of-motion coupled-cluster method},
+	Volume = {103},
+	Year = {1995}}
+
+@article{Stanton:EOMGRAD:95,
+	Author = {J. F. Stanton and J. Gauss},
+	Journal = tca,
+	Pages = {267-289},
+	Title = {Analytic energy derivatives for the equation-of-motion coupled-cluster method --- algebraic expressions, implementation and application to the {S}$_1$ state of {H}{F}{C}{O}},
+	Volume = {91},
+	Year = {1995}}
+
+@article{Baek:Grad:00,
+	Author = {K. K. Baek},
+	Journal = jcp,
+	Pages = {1-4},
+	Title = {The analytic gradient for the equation-of-motion coupled-cluster energy with a reduced molecular orbital space: An application for the first excited state of formaldehyde},
+	Volume = {112},
+	Year = {2000}}
+
+@article{Lee:T1:89,
+	Author = {T. J. Lee and J. E. Rice and G. E. Scuseria and H. F. {Schaefer III}},
+	Journal = tca,
+	Optannote = {About T1 diagnostic for CC},
+	Pages = {81},
+	Volume = {75},
+	Year = {1989}}
+
+@article{Lee:T12:89,
+	Author = {T. J. Lee and P. R. Taylor},
+	Journal = ijqcs,
+	Optannote = {About T1 diagnostic for CC},
+	Pages = {199},
+	Volume = {23},
+	Year = {1989}}
+
+@article{Mukherjee:89:EOM,
+	Author = {R.~Chaudhuri and D.~Mukhopadhyay and D.~Mukherjee},
+	Journal = cpl,
+	Optannote = {Stanton gives this as a reference to EOM-IP/EA},
+	Pages = {393},
+	Title = {Applications of open-shell coupled cluster theory using an eigenvalue-independent partitioning technique: {A}pproximate inclusion of triples in {I}{P} calculations},
+	Volume = {162},
+	Year = {1989}}
+
+@article{Mukherjee:89:EOM2,
+	Author = {R.~Chaudhuri and D.~Mukhopadhyay and D.~Mukherjee},
+	Journal = cpl,
+	Optannote = {Stanton gives this as a reference to EOM-IP/EA},
+	Pages = {393},
+	Title = {Applications of open-shell coupled cluster theory using an eigenvalue-independent partitioning technique: Approximate inclusion of triples in {IP} calculations},
+	Volume = {162},
+	Year = {1989}}
+
+@article{Mukherjee:89:EOM1,
+	Author = {D.~Sinha and D.~Mukhopadhya and R.~Chaudhuri and D.~Mukherjee},
+	Journal = cpl,
+	Optannote = {Stanton gives this as a reference to EOM-IP/EA},
+	Pages = {544-549},
+	Title = {The eigenvalue-independent partitioning technique in {F}ock space: {A}n alternative route to open-shell coupled-cluster theory for incomplete model spaces},
+	Volume = {154},
+	Year = {1989}}
+
+@article{Mukherjee:86:EOM,
+	Author = {D.~Sinha and D.~Mukhopadhyay and D.~Mukherjee},
+	Journal = cpl,
+	Optannote = {Stanton AND DM gives this as a reference to EOM-IP/EA},
+	Pages = {369-374},
+	Title = {A NOTE ON THE DIRECT CALCULATION OF EXCITATION-ENERGIES BY QUASI-DEGENERATE {MBPT} AND COUPLED-CLUSTER THEORY},
+	Volume = {129},
+	Year = {1986}}
+
+@article{Mukherjee:87:EOMIP,
+	Author = {S. Pal and M. Rittby and R. J. Bartlett and D. Sinha and D. Mukherjee},
+	Journal = cpl,
+	Optannote = {DM gives it as reference to EOM-IP},
+	Pages = {273-278},
+	Title = {MULTIREFERENCE COUPLED-CLUSTER METHODS USING AN INCOMPLETE MODEL SPACE --- APPLICATION TO IONIZATION-POTENTIALS AND EXCITATION-ENERGIES OF FORMALDEHYDE},
+	Volume = {137},
+	Year = {1987}}
+
+@article{Bartlett:CCSDT:91,
+	Author = {J. D. Watts and J. F. Stanton and R. J. Bartlett},
+	Journal = cpl,
+	Pages = {471-474},
+	Title = {A benchmark coupled-cluster single, double, and triple excitation ({CCSDT}) study of the structure and harmonic vibrational frequencies of the ozone molecule},
+	Volume = {178},
+	Year = {1991}}
+
+@article{Stanton:SREX:95,
+	Author = {J. F. Stanton and J.~Gauss and N.~Ishikawa and M.~Head-Gordon},
+	Journal = jcp,
+	Pages = {4160-4174},
+	Title = {A comparison of single reference methods for characterizing stationary points of excited state potential energy surfaces},
+	Volume = {103},
+	Year = {1995}}
+
+@article{Stanton:PTH:95,
+	Author = {J. F.~Stanton and J.~Gauss},
+	Journal = jcp,
+	Pages = {1064-1076},
+	Title = {Perturbative treatment of the similarity transformed {H}amiltonian in equation-of-motion coupled-cluster approximations},
+	Volume = {103},
+	Year = {1995}}
+
+@article{Nooijen:PTIP:95,
+	Author = {M.~Nooijen and J. G.~Snijders},
+	Journal = jcp,
+	Pages = {1681-1688},
+	Title = {2nd order many-body perturbation approximation to the coupled-cluster {Greens}-function},
+	Volume = {102},
+	Year = {1995}}
+
+@article{Surjan:H2PT:01,
+	Author = {E.~Rosta and P. R. Surj\'an},
+	Journal = jcp,
+	Note = {in press},
+	Title = {Two-body zero order {H}amiltonians in multireference perturbation theory: the {A}{P}{S}{G} reference state},
+	Year = {2001}}
+
+@article{Olsen:GCC:00,
+	Author = {J.~Olsen},
+	Journal = jcp,
+	Number = {17},
+	Pages = {7140-7148},
+	Title = {The initial implementation and applications of a general active space coupled cluster method},
+	Volume = {113},
+	Year = {2000}}
+
+@article{Crawford:Bruekner:00,
+	Author = {T. D.~Crawford and J. F.~Stanton},
+	Journal = jcp,
+	Optannote = {Analysis of B-CCD and examples of some radicals},
+	Optnumber = {18},
+	Pages = {7873-7879},
+	Title = {Some surprising failures of {B}rueckner coupled cluster theory},
+	Volume = {112},
+	Year = {2000}}
+
+@article{Crawford:SymmBreak1:97,
+	Author = {T. D. Crawford and J. F. Stanton and P. G. Szalay and H. F. {Schaefer III}},
+	Journal = jcp,
+	Optannote = {Symmetry breaking},
+	Pages = {2525-2528},
+	Title = {The $\tilde {C}^2{A}_2$ excited state of {N}{O}$_2$: {E}vidence for a ${C}_s$ equilibrium structure and a failure of some spin-restricted reference wavefunctions},
+	Volume = {107},
+	Year = {1997}}
+
+@article{Crawford:SymmBreak2:97,
+	Author = {T. D. Crawford and J. F. Stanton and W. D. Allen and H. F. {Schaefer III}},
+	Journal = jcp,
+	Optannote = {Symmetry breaking},
+	Pages = {10626-10632},
+	Title = {Hartree-{F}ock orbital instability envelopes in highly correlated single-reference wave functions},
+	Volume = {107},
+	Year = {1997}}
+
+@article{Crawford:01:PB,
+	Author = {T. D. Crawford and E. Kraka and J. F. Stanton and D. Cremer},
+	Journal = jcp,
+	Optnumber = {24},
+	Pages = {10638-10650},
+	Title = {Problematic p-benzyne: {O}rbital instabilities, biradical character, and broken symmetry},
+	Volume = {114},
+	Year = {2001}}
+
+@article{Bartlett:O3:98,
+	Author = {J. D. Watts and R. J. Bartlett},
+	Journal = jcp,
+	Optnumber = {6},
+	Pages = {2511-2514},
+	Title = {Coupled-cluster calculations of structure and vibrational frequencies of ozone: {A}re triple excitations enough?},
+	Volume = {108},
+	Year = {1998}}
+
+@article{Nooijen:97:Porph,
+	Author = {M.~Nooijen and R. J. Bartlett},
+	Journal = jcp,
+	Pages = {6449-6455},
+	Title = {Similarity transformed equation-of-motion coupled-cluster study of ionized, electron attached, and excited states of free base porphin},
+	Volume = {106},
+	Year = {1997}}
+
+@article{Nooijen:97:STEOM,
+	Author = {M. Nooijen and R. J. Bartlett},
+	Journal = jcp,
+	Pages = {6812-6830},
+	Title = {Similarity transformed equation-of-motion coupled-cluster theory: {D}etails, examples, and comparisons},
+	Volume = {107},
+	Year = {1997}}
+
+@article{Watts:CCPAR:00,
+	Author = {J. D. Watts},
+	Journal = {Parallel Computing},
+	Pages = {857-867},
+	Title = {Parallel algorithms for coupled-cluster methods},
+	Volume = {26},
+	Year = {2000}}
+
+@article{Kobayashi:CCPAR:97,
+	Author = {R.~Kobayashi and A. P.~Rendell},
+	Journal = cpl,
+	Pages = {1-11},
+	Title = {A direct coupled cluster algorithm for massively parallel computers},
+	Volume = {265},
+	Year = {1997}}
+
+@article{Rendell:CCPAR:93,
+	Author = {A. P.~Rendelll and M. F.~Guest and R. A.~Kendall},
+	Journal = jcc,
+	Pages = {1429-1439},
+	Title = {DISTRIBUTED DATA PARALLEL COUPLED-CLUSTER ALGORITHM --- APPLICATION TO THE 2-HYDROXYPYRIDINE 2-PYRIDONE TAUTOMERISM},
+	Volume = {14},
+	Year = {1993}}
+
+@article{Rendell:CCPAR:92,
+	Author = {A. P.~Rendell and T.J .~Lee and R.~Lindh},
+	Journal = cpl,
+	Pages = {84-94},
+	Title = {QUANTUM CHEMISTRY ON PARALLEL COMPUTER ARCHITECTURES --- COUPLED-CLUSTER THEORY APPIED TO THE BENDING POTENTIAL OF FULMINIC ACID},
+	Volume = {194},
+	Year = {1992}}
+
+@article{Nooijen:MRDIP:02,
+	Author = {M.~Nooijen},
+	Journal = ijms,
+	Pages = {656-675},
+	Title = {State selective equation-of-motion Coupled Cluster Theory: {S}ome preliminary results},
+	Volume = {3},
+	Year = {2002}}
+
+@inproceedings{Nooijen:EOMDIP:01,
+	Author = {M.~Wladyslawski and M.~Nooijen},
+	Booktitle = {ACS Symposium Series},
+	Optnote = {in press},
+	Pages = {65-92},
+	Title = {The photoelectron spectrum of the {N}{O}$_3$ radical revisited: A theoretical investigation of potential energy surfaces and conical intersections},
+	Volume = {828},
+	Year = {2002}}
+
+@article{Bartlett:EOMMN:00,
+	Author = {S.~Hirata and M.~Nooijen and R. J.~Bartlett},
+	Journal = cpl,
+	Pages = {255-262},
+	Title = {High-order determinantal equation-of-motion coupled-cluster calculations for electronic excited states},
+	Volume = {326},
+	Year = {2000}}
+
+@article{Bartlett:EOMCCSDT:01,
+	Author = {S. A.~Kucharski and M.~W{\l}och and M.~Musia{\l} and R. J.~Bartlett},
+	Journal = jcp,
+	Pages = {8263-8266},
+	Title = {Coupled-cluster theory for excited electronic states: The full equation-of-motion coupled-cluster single, double, and triple excitation method},
+	Volume = {115},
+	Year = {2001}}
+
+@article{Nooijen:EOMEA:95,
+	Author = {M.~Nooijen and R. J.~Bartlett},
+	Journal = jcp,
+	Pages = {3629-3647},
+	Title = {Equation of motion coupled cluster method for electron attachment},
+	Volume = {102},
+	Year = {1995}}
+
+@article{Mukherjee:LRCC:79,
+	Author = {D.~Mukherjee and P. K.~Mukherjee},
+	Journal = cp,
+	Optannote = {LR-CC},
+	Pages = {325-335},
+	Title = {A response-function approach to the direct calculation of the transition-energy in a multiple-cluster expansion formalism},
+	Volume = {39},
+	Year = {1979}}
+
+@article{Larsen:EOM:01,
+	Author = {H.~Larsen and K.~Hald and J.~Olsen and P.~J{\o}rgensen},
+	Journal = jcp,
+	Optannote = {Benchmark study (including statistical analysis) of the performance of the EOM theory --- up to full EOM-CCSDT},
+	Pages = {3015-3020},
+	Title = {Triplet excitation energies in full configuration interaction and coupled-cluster theory},
+	Volume = {115},
+	Year = {2001}}
+
+@article{HeadGordon:VCC:00,
+	Author = {T.~van~Voorhis and M.~Head-Gordon},
+	Journal = jcp,
+	Pages = {8873-8879},
+	Title = {Benchmark variational coupled-cluster results},
+	Volume = {113},
+	Year = {2000}}
+
+@article{Szalay:TDCC:94,
+	Author = {P. G.~Szalay and R. J.~Bartlett},
+	Journal = jcp,
+	Pages = {4936-4944},
+	Title = {Analytic energy gradients for the two-determinant coupled-cluster method with application to singlet excited states of butadiene and ozone},
+	Volume = {101},
+	Year = {1994}}
+
+@article{Szalay:LAGR:95,
+	Author = {P.G.~Szalay},
+	Journal = ijqc,
+	Optnote = {Lagrangian approach, Hilbert-space, two-determinantal (TD-CC), Fock-space, and EOM-CC methods},
+	Optnumber = {2},
+	Pages = {151-163},
+	Title = {Analytic energy derivatives for coupled-cluster methods describing excited states: {G}eneral formulas and comparison of computational costs},
+	Volume = {55},
+	Year = {1995}}
+
+@article{Jeziorski:MRCC:1981,
+	Author = {B.~Jeziorski and H.J.~Monkhorst},
+	Journal = pra,
+	Optannote = {Reference to the Hilbert space type multireference CC},
+	Pages = {1668},
+	Title = {Coupled-Cluster Method for Multideterminantal Reference States},
+	Volume = {24},
+	Year = {1981}}
+
+@book{Lindgren:1982,
+	Author = {I.~Lindgren and J.~Morrison},
+	Optannote = {reference to the Fock-space multireference CC},
+	Publisher = {Springer-Verlag, Berlin},
+	Title = {Atomic many-body theory},
+	Year = {1982}}
+
+@article{Nooijen:eSTEOM:2000,
+	Author = {M.~Nooijen and V.~Lotrich},
+	Journal = jcp,
+	Pages = {494-507},
+	Title = {Extended similarity transformed equation-of-motion coupled cluster theory (extended-STEOM-CC): {A}pplications to doubly excited states and transition metal compounds},
+	Volume = {113},
+	Year = {2000}}
+
+@article{EOMXCC:Rev,
+	Author = {P.~Piecuch and R. J.~Bartlett},
+	Journal = aqc,
+	Pages = {295-380},
+	Title = {{E}{O}{M}{X}{C}{C}: {A} new coupled-cluster method for electronic excited states},
+	Volume = {34},
+	Year = {1999}}
+
+@article{Bartlett:QRHF,
+	Author = {M. Rittby and R. J.~Bartlett},
+	Journal = jpc,
+	Pages = {3033-3036},
+	Title = {An Open-Shell Spin-Restricted Coupled Cluster Method: {A}pplication to Ionization Potentials in {N}$_2$},
+	Volume = {92},
+	Year = {1988}}
+
+@article{Gauss:00:SROSexc,
+	Author = {P.G.~Szalay and J.~Gauss},
+	Journal = jcp,
+	Pages = {4027-4036},
+	Title = {Spin-restricted open-shell coupled-cluster theory for excited states},
+	Volume = {112},
+	Year = {2000}}
+
+@article{Stanton:hydroperoxy:04,
+	Author = {B. A. Flowers and P. G. Szalay and J. F. Stanton and M. K{\'a}llay and J. Gauss and A. G. Csaszar},
+	Journal = jpca,
+	Pages = {3195-3199},
+	Title = {Benchmark Thermochemistry of the Hydroperoxyl Radical},
+	Volume = {108},
+	Year = {2004}}
+
+@article{Stanton:Thermo:04,
+	Author = {A.~Tajti and P. G. Szalay and A. G. Cs{\'a}sz{\'a}r and M. K{\'a}llay and J. Gauss and E. F. Valeev and B. A. Flowers and J. V{\'a}zquez and J. F. Stanton},
+	Journal = jcp,
+	Optnote = {in press},
+	Pages = {11599-11613},
+	Title = {{HEAT}: {H}igh accuracy extrapolated ab initio thermochemistry},
+	Volume = {121},
+	Year = {2004}}
+
+@article{Schaefer:Thermo,
+	Author = {M.S.Schuurman and S.R. Muir and W.D. Allen and H.F. Schaefer},
+	Journal = jcp,
+	Pages = {11586-11599},
+	Title = {Toward subchemical accuracy in computational thermochemistry: {F}ocal point analysis of the heat of formation of {N}{C}{O} and [{H},{N},{C},{O}] isomers},
+	Volume = {120},
+	Year = {2004}}
+
+@article{Gauss:CCGRAD:91,
+	Author = {J.~Gauss and J. F.~Stanton and R. J.~Bartlett},
+	Journal = jcp,
+	Optnote = {C4O2},
+	Optnumber = {4},
+	Pages = {2623-2638},
+	Title = {Coupled-cluster open-shell analytic gradients: {I}mplementation of the direct product decomposition approach in energy gradient calculations},
+	Volume = {95},
+	Year = {1991}}
+
+@article{Bartlett:EOMCCSDT:94,
+	Author = {J. D.~Watts and R. J.~Bartlett},
+	Journal = jcp,
+	Number = {4},
+	Optabstract = {We report the implementation of connected triple excitations in the equation-of-motion (EOM) coupled-cluster (CC) method for excitation energies for the first time. The reference state is described by the complete CC singles, doubles, and triples (CCSDT) method. Excited states are generated from the reference state wave function by the action of a linear excitation operator including single, double, and triple excitations. The excited state wave functions and energies are obtained by diagonalizing the effective Hamiltonian e(-T)He(T), where T is the cluster operator for the reference state, in the space of singly, doubly, and triply excited determinants. Comparison is made with full configuration interaction excitation energies for several examples (CH+, Be, SiH2, and CH2). These show that EOM-CCSDT is able to describe states which are doubly excited relative to the reference state, as well as singly excited states. Calculations of several excitation energies of BH using an extended basis set are also reported, and show good agreement with experiment.},
+	Pages = {3073-3078},
+	Title = {The Inclusion of Connected Triple Excitations in the Equation-of-Motion Coupled-Cluster Method},
+	Volume = {101},
+	Year = {1994}}
+
+@article{Bartlett:EOMCCSDT:95,
+	Author = {J. D.~Watts and R. J.~Bartlett},
+	Journal = cpl,
+	Pages = {81-87},
+	Title = {Economical Triple Excitation Equation-of-Motion Coupled-Cluster Methods for Excitation-Energies},
+	Volume = {233},
+	Year = {1995}}
+
+@article{Bartlett:EOMCCSDT:96,
+	Author = {J. D.~Watts and R. J.~Bartlett},
+	Journal = cpl,
+	Pages = {581-88},
+	Title = {Iterative and non-iterative triple excitation corrections in coupled-cluster methods for excited electronic states: The {EOM-CCSDT-3} and {EOM-CCSD($\tilde T$)} methods},
+	Volume = {258},
+	Year = {1996}}
+
+@article{Bartlett:EOMCCSDT3:87,
+	Author = {J. Noga and R. J. Bartlett and M. Urban},
+	Journal = cpl,
+	Optnote = {original CCSDDT-3 paper},
+	Pages = {126-132},
+	Title = {Towards a full {CCSDT} model for electron correlation. {CCSDT}-n models},
+	Volume = {134},
+	Year = {1987}}
+
+@article{Koch:97:CC3,
+	Author = {H. Koch and O. Christiansen and P. J{\o}rgensen and A.M.S.~de~Meras and T.~Helgaker},
+	Journal = jcp,
+	Optnote = {Original CC3 paper},
+	Pages = {1808-1818},
+	Title = {The {CC}3 model: {A}n iterative coupled cluster approach including connected triples},
+	Volume = {106},
+	Year = {1997}}
+
+@article{Christiansen:CC3:95,
+	Author = {O.~Christiansen and H.~Koch and P.~Jorgensen},
+	Journal = jcp,
+	Number = {17},
+	Pages = {7429-7441},
+	Title = {Response functions in the {CC3} iterative triple excitation model},
+	Volume = {103},
+	Year = {1995}}
+
+@article{Christiansen:CCSDR3:96,
+	Author = {O.~Christiansen and H.~Koch and P.~Jorgensen},
+	Journal = jcp,
+	Number = {4},
+	Pages = {1451-1459},
+	Title = {Perturbative triple excitation corrections to coupled cluster singles and doubles excitation energies},
+	Volume = {105},
+	Year = {1996}}
+
+@article{Hirata:2004,
+	Author = {S.~Hirata},
+	Journal = jcp,
+	Pages = {51-59},
+	Title = {Higher-order equation-of-motion coupled-cluster methods},
+	Volume = {121},
+	Year = {2004}}
+
+@article{Crawford:CC3:2005,
+	Author = {C.E.~Smith and R.A.~King and T.D.~Crawford},
+	Journal = jcp,
+	Number = {5},
+	Pages = {054110},
+	Title = {Coupled cluster methods including triple excitations for excited states of radicals},
+	Volume = {122},
+	Year = {2005}}
+
+@article{Gauss:W3:2004,
+	Author = {A.D.~Boese and M.~Oren and O.~Atasoylu and J.M.L.~Martin and M.~K{\'a}llay and J.~Gauss},
+	Journal = jcp,
+	Number = {9},
+	Optabstract = {We are proposing a new computational thermochemistry protocol denoted W3 theory, as a successor to W1 and W2 theory proposed earlier [Martin and De Oliveira, J. Chem. Phys. 111, 1843 (1999)]. The new method is both more accurate overall (error statistics for total atomization energies approximately cut in half) and more robust (particularly towards systems exhibiting significant nondynamical correlation) than W2 theory. The cardinal improvement rests in an approximate account for post-CCSD(T) correlation effects. Iterative T-3 (connected triple excitations) effects exhibit a basis set convergence behavior similar to the T-3 contribution overall. They almost universally decrease molecular binding energies. Their inclusion in isolation yields less accurate results than CCSD(T) nearly across the board: It is only when T-4 (connected quadruple excitations) effects are included that superior performance is achieved. T-4 effects systematically increase molecular binding energies. Their basis set convergence is quite rapid, and even CCSDTQ/cc-pVDZ scaled by an empirical factor of 1.2532 will yield a quite passable quadruples contribution. The effect of still higher-order excitations was gauged for a subset of molecules (notably the eight-valence electron systems): T-5 (connected quintuple excitations) contributions reach 0.3 kcal/mol for the pathologically multireference X (1)Sigma(g)(+) state of C-2 but are quite small for other systems. A variety of avenues for achieving accuracy beyond that of W3 theory were explored, to no significant avail. W3 thus appears to represent a good compromise between accuracy and computational cost for those seeking a robust method for computational thermochemistry in the kJ/mol accuracy range on small systems.},
+	Pages = {4129-4141},
+	Title = {W3 theory: Robust computational thermochemistry in the kJ/mol accuracy range},
+	Volume = {120},
+	Year = {2004}}
+
+@article{Piecuch:EOMCCSDt:2001,
+	Author = {K.~Kowalski and P.~Piecuch},
+	Journal = jcp,
+	Number = {2},
+	Pages = {643-651},
+	Title = {The active-space equation-of-motion coupled-cluster methods for excited electronic states: {F}ull {EOMCCSDt}},
+	Volume = {115},
+	Year = {2001}}
+
+@article{Piecuch:EOMCCSDt:2000,
+	Author = {K.~Kowalski and P.~Piecuch},
+	Journal = jcp,
+	Number = {19},
+	Pages = {8490-8502},
+	Title = {The active-space equation-of-motion coupled-cluster methods for excited electronic states: {T}he {EOMCCSDt} approach},
+	Volume = {113},
+	Year = {2000}}
+
+@article{Kallay:02:MRCC,
+	Author = {M.~K\'{a}llay and P.G.~Szalay and P.R.~Surj\'{a}n},
+	Doi = {10.1063/1.1483856},
+	Journal = jcp,
+	Number = {3},
+	Pages = {980-990},
+	Title = {A general state-selective multireference coupled-cluster algorithm},
+	Volume = {117},
+	Year = {2002},
+	Bdsk-Url-1 = {https://doi.org/10.1063/1.1483856}}
+
+@article{Kallay:auto:2000,
+	Author = {M.~K\'{a}llay and P.R.~Surjan},
+	Journal = jcp,
+	Optnote = {automated program generating eom-cc},
+	Pages = {1359-1365},
+	Title = {Computing coupled-cluster wave functions with arbitrary excitations},
+	Volume = {113},
+	Year = {2000}}
+
+@article{ooccd_2,
+	Author = {S.R.~Gwaltney and M.~Head-Gordon},
+	Journal = cpl,
+	Pages = {21-28},
+	Title = {A second-order correction to singles and doubles coupled-cluster methods based on a perturbative expansion of a similarity-transformed {H}amiltonian},
+	Volume = {323},
+	Year = {2000}}
+
+@article{SAC-CI:91,
+	Author = {H.~Nakatsuji},
+	Journal = cpl,
+	Number = {3},
+	Optnote = {SAC-CI general-R method},
+	Pages = {331-337},
+	Title = {Description of two- and many- electron processes by the {S}{A}{C}-{C}{I} method},
+	Volume = {177},
+	Year = {1991}}
+
+@article{SAC-CI:78,
+	Author = {H.~Nakatsuji and K.~Hirao},
+	Journal = jcp,
+	Optnote = {SAC-CI},
+	Pages = {2053-2065},
+	Title = {Cluster expansion of the wavefunction. {S}ymmetry-adapted-cluster expansion, its variational determination, and extension of open-shell orbital theory},
+	Volume = {68},
+	Year = {1978}}
+
+@article{Bartlett:Rev:02,
+	Author = {R. J. Bartlett},
+	Journal = {Int. J. Mol. Sci.},
+	Optnote = {A relation between MR-CC, Fock space, and EOM methods is discussed.},
+	Pages = {579-603},
+	Title = {To multireference or not to multireference: {T}hat is the question?},
+	Volume = {3},
+	Year = {2002}}
+
+@article{Janssen:SACC:91,
+	Author = {C.L. Janssen and H.F. Schaefer},
+	Journal = tca,
+	Optnote = {Rigorously spin-adapted CC formalism},
+	Pages = {1-42},
+	Title = {The automated solution of second quantization equations with applications to the coupled cluster approach},
+	Volume = {79},
+	Year = {1991}}
+
+@article{Knowels:SACC:93,
+	Author = {P.J. Knowles and C. Hampel and H.-J. Werner},
+	Journal = jcp,
+	Optnote = {One of the partially spin-adapted CC-schemes},
+	Pages = {5219-5227},
+	Title = {Coupled cluster theory for high spin, open shell reference wave functions},
+	Volume = {99},
+	Year = {1993}}
+
+@article{Urban:SACC:94,
+	Author = {P. Neogr{\'a}dy and M. Urban},
+	Journal = jcp,
+	Optnote = {Partially spin-adapted CC scheme},
+	Pages = {3706-3716},
+	Title = {Spin adapted restricted {H}artree-{F}ock reference coupled cluster theory for open shell systems},
+	Volume = {100},
+	Year = {1994}}
+
+@article{Szalay:SRCC:97,
+	Author = {P.G. Szalay and J. Gauss},
+	Journal = jcp,
+	Pages = {9028-9038},
+	Title = {Spin-restricted open-shell coupled-cluster theory},
+	Volume = {107},
+	Year = {1997}}
+
+@article{Lee:OCCSD:92,
+	Author = {D. Jayatilaka and T.J. Lee},
+	Journal = cpl,
+	Optnote = {re spin adaptation},
+	Pages = {211-219},
+	Title = {The form of spin orbitals for open-shell restricted {H}artree-{F}ock reference functions},
+	Volume = {199},
+	Year = {1992}}
+
+@article{Lee:OCCSD:93,
+	Author = {D. Jayatilaka and T. J. Lee},
+	Journal = jcp,
+	Optnote = {re spin adaptation},
+	Pages = {9734-9747},
+	Title = {Open-shell coupled-cluster theory},
+	Volume = {98},
+	Year = {1993}}
+
+@article{Gauss:IterTripl:01,
+	Author = {K. W. Sattelmeyer and J. F. Stanton and J. Olsen and J. Gauss},
+	Journal = cpl,
+	Pages = {499-504},
+	Title = {A comparison of excited state properties for iterative approximate triples linear response coupled cluster methods},
+	Volume = {347},
+	Year = {2001}}
+
+@article{Gauss:HigherEOMBench:04,
+	Author = {M. K{\'a}llay and J. Gauss},
+	Journal = jcp,
+	Pages = {9257-9269},
+	Title = {Calculation of excited-state properties using general coupled-cluster and configuration-interaction models},
+	Volume = {121},
+	Year = {2004}}
+
+@article{Simons:EOMEA:73,
+	Author = {J. Simons and W. D. Smith},
+	Journal = jcp,
+	Pages = {4899-4907},
+	Title = {Theory of Electron Affinities of Small Molecules},
+	Volume = {58},
+	Year = {1973}}
+
+@article{Stanton:DIP:03,
+	Author = {K. W. Sattelmeyer and H. F. Schaefer and J. F. Stanton},
+	Journal = cpl,
+	Pages = {42-46},
+	Title = {Use of 2h and 3h-p like coupled-cluster {T}amm-{D}ancoff approaches for the equilibrium properties of ozone},
+	Volume = {378},
+	Year = {2003}}
+
+@article{Piecuch:CR-1:05,
+	Author = {P. Piecuch and M. W{\l}och and J. R. Gour and A. Kinal},
+	Journal = cpl,
+	Optnote = {our most recent size extensive formulation of renormalized coupled-cluster methods based on the biorthogonal MMCC theory, which I am quite excited about since (a) it works better than or is comparable to standard CCSD(T) at the (T) level for closed-shell molecules near the equilibrium, (b) produces, at the same time, excellent results for single bond breaking and biradicals where standard CCSD(T) fails (so far, it seems better than any other (T)-like method), (c) does not require orbital localization which we had to use earlier in another promising development toward rigorously extensive CR-CC, the LR-CCSD(T) approach (published in JCP early in 2005).},
+	Pages = {467-474},
+	Title = {Single-reference, size-extensive, non-iterative coupled-cluster approaches to bond breaking and biradicals},
+	Volume = {418},
+	Year = {2006}}
+
+@article{Piecuch:CR-2:05,
+	Author = {P. Piecuch and M. W{\l}och},
+	Journal = jcp,
+	Optannote = {see above},
+	Pages = {224105-224115},
+	Title = {Renormalized coupled-cluster methods exploiting left eigenstates of the similarity transformed {H}amiltonian},
+	Volume = {123},
+	Year = {2005}}
+
+@article{Crawford:SYMB:04,
+	Author = {N. J. Russ and T. D. Crawford and G. S. Tschumper},
+	Journal = jcp,
+	Pages = {7298-7306},
+	Title = {Real versus artifactual symmetry breaking effects in {H}artree-{F}ock, density-functional, and coupled-cluster methods},
+	Volume = {120},
+	Year = {2004}}
+
+@article{Nooijen:SEX:05,
+	Author = {M. Nooijen and K. R. Shamasundar and D. Mukherjee},
+	Journal = mp,
+	Pages = {2277-2298},
+	Title = {Reflections on size-extensivity, size-consistency, and generalized extensivity in many-body theory},
+	Volume = {103},
+	Year = {2005}}
+
+@article{StantonGauss:EOMIP:99,
+	Author = {J. F.~Stanton and J.~Gauss},
+	Journal = jcp,
+	Optannote = {EOM-IP. Also, ref for EE+diffuse orbital trick},
+	Pages = {8785-8788},
+	Title = {A simple scheme for the direct calculation of ionization potentials with coupled-cluster theory that exploits established excitation energy methods},
+	Volume = {111},
+	Year = {1999}}
+
+@article{Stanton:RadBench:99,
+	Author = {J. C.~Saeh and J. F.~Stanton},
+	Journal = jcp,
+	Optannote = {EOM-IP},
+	Pages = {8275-8285},
+	Title = {Application of an equation-of-motion coupled cluster method including higher-order corrections to potential energy surfaces of radicals},
+	Volume = {111},
+	Year = {1999}}
+
+@article{Korona:lEOM:03,
+	Author = {T. Korona and H. J. Werner},
+	Journal = jcp,
+	Pages = {3006-3019},
+	Title = {Local treatment of electron excitations in the {EOM-CCSD} method},
+	Volume = {118},
+	Year = {2003}}
+
+@article{Hattig:RICC2:03,
+	Author = {A. K{\"o}hn and C. H{\"a}ttig},
+	Journal = jcp,
+	Optvolume = {119},
+	Pages = {5021-5036},
+	Title = {Analytic gradients for excited states in the coupled-cluster model {CC2} employing the resolution-of-the-identity approximation},
+	Year = {2003}}
+
+@article{Hattig:RICC2:02,
+	Author = {C. H{\"a}ttig and K. Hald},
+	Journal = pccp,
+	Pages = {2111-2118},
+	Title = {Implementation of {RI-CC2} triplet excitation energies with an application to trans-azobenzene},
+	Volume = {4}}
+
+@article{Hattig:MTM:98,
+	Author = {C. H{\"a}ttig and O. Christiansen and P. J{\o}rgensen},
+	Journal = jcp,
+	Pages = {8331-8354},
+	Title = {Multiphoton transition moments and absorption cross sections in coupled cluster response theory employing variational transition moment functionals},
+	Volume = {108},
+	Year = {1998}}
+
+@article{Hattig:MTM-2:98,
+	Author = {C. H{\"a}ttig and O. Christiansen and P. J{\o}rgensen},
+	Journal = jcp,
+	Pages = {8355-8359},
+	Title = {Coupled cluster response calculations of two-photon transition probablity rate constants for helium, neon and argon},
+	Volume = {108},
+	Year = {1998}}
+
+@article{Hattig:MTMEX:98,
+	Author = {C. H{\"a}ttig and P. J{\o}rgensen},
+	Journal = jcp,
+	Pages = {9219-9236},
+	Title = {Derivation of coupled cluster excited states response functions and multiphoton transition moments between two excited states as derivatives of variational functinals},
+	Volume = {109},
+	Year = {1998}}
+
+@article{Christiansen:NLO:98,
+	Author = {O. Christiansen and A. Halkier and H. Koch and P. J{\o}rgensen and T. Helgaker},
+	Journal = jcp,
+	Pages = {2801-2816},
+	Title = {Integral-direct coupled cluster calculations of frequency-dependent polarizabilities, transition probabilities and excited-state properties},
+	Volume = {108},
+	Year = {1998}}
+
+@article{Hirata:EOMIP:00,
+	Author = {S. Hirata and M. Nooijen and R. J. Bartlett},
+	Journal = cpl,
+	Pages = {459-468},
+	Title = {High-order determinantal equation-of-motion coupled-cluster calculations for ionized and electron-attached states},
+	Volume = {328},
+	Year = {2000}}
+
+@article{Hirata:EOMIP:06,
+	Author = {M. Kamiya and S. Hirata},
+	Journal = jcp,
+	Pages = {074111-074125},
+	Title = {Higher-order equation-of-motion coupled-cluster methods for ionization processes},
+	Volume = {125},
+	Year = {2006}}
+
+@article{Hirata:asEOMIP:07,
+	Author = {P. D. Fan and M. Kamyia and S. Hirata},
+	Journal = jctc,
+	Pages = {1036-1046},
+	Title = {Active-space equation-of-motion coupled-cluster methods through quadruples for excited, ionized, and electron-attached states},
+	Volume = {3},
+	Year = {2007}}
+
+@article{Piecuch:asEOMIP:06,
+	Author = {J. Gour and P. Piecuch},
+	Journal = jcp,
+	Pages = {234107-23421},
+	Title = {Efficient formulation and computer implementation of the active-space electron-attached and ionized equation-of-motion coupled-cluster methods},
+	Volume = {125},
+	Year = {2006}}
+
+@article{Korona:riCC2:06,
+	Author = {D. Kats and T. Korona and M. Sch{\"u}tz},
+	Journal = jcp,
+	Pages = {104106-104121},
+	Title = {Local {CC2} electronic excitation energies for large molecules with density fitting},
+	Volume = {125},
+	Year = {2006}}
+
+@article{MHG:sosCISD:07,
+	Author = {Y. M. Rhee and M. Head-Gordon},
+	Journal = jpca,
+	Pages = {5314-5326},
+	Title = {Scaled second order perturbation corrections to configuration interaction singles: efficient and reliable excitation energy methods},
+	Volume = {111},
+	Year = {2007}}
+
+@article{Monkhorst:77,
+	Author = {H. J. Monkhorst},
+	Journal = ijqcs,
+	Pages = 421,
+	Title = {Calculation of properties with the coupled-cluster method},
+	Volume = 11,
+	Year = 1977}
+
+@article{Jeziorski:89,
+	Author = {B. Jeziorski and J. Paldus},
+	Journal = jcp,
+	Optnote = {T. Korona suggested to include....},
+	Pages = 2714,
+	Title = {Valence-Universal Exponential Ansatz and the Cluster Structure of Multireference Configuration Interaction Wave Function},
+	Volume = 90,
+	Year = 1989}
+
+@article{Koch:94,
+	Author = {H. Koch and R. Kobayashi and A. S. de Mer{\'a}s and P. J{\o}rgensen},
+	Journal = jcp,
+	Pages = {4393-4400},
+	Title = {Calculation of size-extensive transition moments from coupled cluster singles and doubles linear response function},
+	Volume = 100,
+	Year = 1994}
+
+@article{Allen:MRCC:06,
+	Author = {F.A. Evangelista and W. D. Allen and H. F. Schaefer},
+	Journal = jcp,
+	Note = {Provides an overview of different MR-CC approaches and gives numerical examples.},
+	Pages = {154113-154128},
+	Title = {High-order excitations in state-universal and state-specific multireference coupled cluster theories: {M}odel systems},
+	Volume = {125},
+	Year = {2006}}
+
+@article{Kowalski:MMCC:00,
+	Author = {K. Kowalski and P. Piecuch},
+	Journal = jcp,
+	Pages = {18-35},
+	Title = {The method of moments of coupled-cluster equations and the renormalized {CCSD[T]}, {CCSD(T)}, {CCSD(TQ)}, and {CCSDT(Q)} approaches},
+	Volume = {113},
+	Year = {2000}}
+
+@article{Kowalski:CR-EOMCCSD:01,
+	Author = {K. Kowalski and P. Piecuch},
+	Journal = jcp,
+	Pages = {2966-2978},
+	Title = {New type of noniterative energy corrections for excited electronic states: {E}xtension of the method of moments of coupled-cluster equations to the equation-of-motion coupled-cluster formalism},
+	Volume = {115},
+	Year = {2001}}
+
+@article{Kowalski:CR-EOMCCSDpT:04,
+	Author = {K. Kowalski and P. Piecuch},
+	Journal = jcp,
+	Pages = {1715-1738},
+	Title = {New coupled-cluster methods with singles, doubles, and noniterative triples for high accuracy calculations of excited electronic states},
+	Volume = {120},
+	Year = {2004}}
+
+@article{Oliphant:93:MRCC,
+	Author = {N.~Oliphant and L.~Adamowicz},
+	Journal = irpc,
+	Pages = {339},
+	Title = {Multireference coupled-cluster method for electronic structure of molecules},
+	Volume = {12},
+	Year = {1993}}
+
+@article{Piecuch:94:MRCC,
+	Author = {P.~Piecuch and L.~Adamowicz},
+	Doi = {10.1063/1.467143},
+	Journal = jcp,
+	Pages = {5792},
+	Title = {State-selective multireference coupled-cluster theory employing the single-reference formalism: {I}mplementation and application to the {H8} model system},
+	Volume = {100},
+	Year = {1994},
+	Bdsk-Url-1 = {https://doi.org/10.1063/1.467143}}
+
+@article{Adamowicz:05:MRCC,
+	Author = {D. I.~Lyakh and V. V.~Ivanov and L.~Adamowicz},
+	Doi = {10.1063/1.1824897},
+	Journal = jcp,
+	Number = {3},
+	Pages = {024108},
+	Title = {Automated generation of coupled-cluster diagrams: {I}mplementation in the multireference state-specific coupled-cluster approach with the complete-active-space reference},
+	Volume = {122},
+	Year = {2005},
+	Bdsk-Url-1 = {https://doi.org/10.1063/1.1824897}}
+
+@article{Chan:06:CT,
+	Author = {T. Yanai and G. K. C. Chan},
+	Journal = jcp,
+	Pages = {194106},
+	Title = {Canonical transformation theory for multireference problems},
+	Year = {2006}}
+
+@article{sfxcis,
+	Author = {D. Casanova and M.~Head-Gordon},
+	Journal = jcp,
+	Optnote = {in press},
+	Pages = {064104},
+	Title = {The spin-flip extended single excitation configuration interaction method},
+	Volume = {129},
+	Year = {2008}}
+
+@article{Bartlett:SF:08,
+	Author = {T. Kus and R. J. Bartlett},
+	Journal = jcp,
+	Pages = {104301},
+	Title = {Different equation-of-motion coupled cluster methods with different reference functions: The formyl radical},
+	Volume = {129},
+	Year = {2008}}
+
+@article{RIpaper1,
+	Author = {M.W. Feyereisen and G. Fitzgerald and A. Komornicki},
+	Journal = cpl,
+	Pages = {359-363},
+	Title = {USE OF APPROXIMATE INTEGRALS IN AB INITIO THEORY - AN APPLICATION IN {MP2} ENERGY CALCULATIONS},
+	Volume = {208},
+	Year = {1993}}
+
+@article{RIpaper2,
+	Author = {O. Vahtras and J. Alml\"{o}f and M. W. Feyereisen},
+	Journal = cpl,
+	Pages = {514-518},
+	Title = {INTEGRAL APPROXIMATIONS FOR {LCAO-SCF} CALCULATIONS},
+	Volume = {213},
+	Year = {1993}}
+
+@article{RIpaper3,
+	Author = {A. Komornicki and G. Fitzgerald},
+	Journal = jcp,
+	Pages = {1398-1421},
+	Title = {MOLECULAR GRADIENTS AND HESSIANS IMPLEMENTED IN DENSITY FUNCTIONAL THEORY},
+	Volume = {98},
+	Year = {1993}}
+
+@article{RIpaper4,
+	Author = {D. E. Bernholdt and R. J. Harrison},
+	Journal = cpl,
+	Pages = {477-484},
+	Title = {Large-scale correlated electronic structure calculations: {The RI-MP2} method on parallel computers},
+	Volume = {250},
+	Year = {1996}}
+
+@article{Stanton:AST:98,
+	Author = {T. D. Crawford and J. F. Stanton},
+	Journal = ijqc,
+	Pages = {601},
+	Volume = {70},
+	Year = {1998}}
+
+@article{Bartlett:AST:98,
+	Author = {S. A. Kucharski and R. J. Bartlett},
+	Journal = jcp,
+	Pages = {5243},
+	Volume = {108},
+	Year = {1998}}
+
+@article{Gwaltney:AST:CCSD,
+	Author = {S. R. Gwaltney and M. Head-Gordon},
+	Journal = jcp,
+	Pages = {2014-2021},
+	Title = {A second-order perturbative correction to the coupled-cluster singles and doubles method: {CCSD}(2)},
+	Volume = {115},
+	Year = {2001}}
+
+@article{Piecuch:CREOM:06,
+	Author = {M. W{\l}och and M. D. Lodriguito and P. Piecuch and J. R. Gour},
+	Journal = mp,
+	Pages = {2149-2172},
+	Title = {Two new classes of non-iterative coupled-cluster methods derived from the method of moments of coupled-cluster equations},
+	Volume = {104},
+	Year = {2006}}
+
+@article{Bartlett:Lambda1:08,
+	Author = {A. G. Taube and R. J. Bartlett},
+	Journal = jcp,
+	Pages = {044110},
+	Title = {Improving upon {CCSD(T)}: {$\Lambda$CCSD(T)}. {I.} {Potential} energy surfaces},
+	Volume = {128},
+	Year = {2008}}
+
+@article{Bartlett:Lambda2:08,
+	Author = {A. G. Taube and R. J. Bartlett},
+	Journal = jcp,
+	Pages = {044111},
+	Title = {Improving upon {CCSD(T)}: {$\Lambda$CCSD(T)}. {II.} {Stationary} formulation},
+	Volume = {128},
+	Year = {2008}}
+
+@article{KallayEOM:2004,
+	Author = {M.~K{\'a}llay and J.~Gauss},
+	Journal = jcp,
+	Pages = {9257},
+	Title = {Calculation of excited-state properties using general coupled-cluster and configuration-interaction models},
+	Volume = {121},
+	Year = {2004}}
+
+@article{Kallay:CCHigh,
+	Author = {M.~K{\'a}llay and P. R.~Surj{\'a}n},
+	Journal = jcp,
+	Pages = {2945},
+	Title = {Higher excitations in coupled-cluster theory},
+	Volume = {115},
+	Year = {2001}}
+
+@article{Kallay:CCGrad,
+	Author = {M.~K{\'a}llay and J.~Gauss and P. G.~Szalay},
+	Journal = jcp,
+	Pages = {2991},
+	Title = {Analytic first derivatives for general coupled-cluster and configuration interaction models},
+	Volume = {119},
+	Year = {2003}}
+
+@article{Paldus:BNB:07,
+	Author = {X. Z. Li and J. Paldus},
+	Journal = jcp,
+	Pages = {224304},
+	Title = {Real or artifactual symmetry breaking in the {BNB} radical: {A} multireference coupled cluster viewpoint},
+	Volume = {126},
+	Year = {2007}}
+
+@article{Hirata:TCE:03,
+	Author = {S. Hirata},
+	Journal = jpca,
+	Pages = {9887-9897},
+	Title = {Tensor contraction engine: abstraction and automated parallel implementation of configuration-interaction, coupled-cluster, and many-body perturbation theories},
+	Volume = {107},
+	Year = {2003}}
+
+@inproceedings{Nooijen:CCCodes:01,
+	Author = {D. Cociorva and J. Wilkins and G. Baumgartner and P. Sadayappan and J. Ramanujam and M. Nooijen and D. E. Bernholdt and R. Harrison},
+	Booktitle = {Proceedings of the International Conference on High-Performance Computing ({HiPC} '01)},
+	Pages = {237-248},
+	Publisher = {Hyderabad, India (Springer Verlag)},
+	Title = {Towards Automatic Synthesis of High-Performance Codes for Electronic Structure Calculations: Data locality Optimization},
+	Volume = {2228},
+	Year = {2001}}
+
+@inproceedings{Nooijen:CCCodes:02,
+	Author = {D. Cociorva and G. Baumgartner and C. Lam and P. Sadayappan and J. Ramanujam and M. Nooijen and D.E. Bernholdt and R. Harrison},
+	Booktitle = {ACM SIGPLAN 2002 Conference on Programming Language Design and Implementation ({PLDI} '02)},
+	Pages = {177-186},
+	Title = {Space-Time Trade-Off optimization for a class of Electronic Structure Calculations},
+	Year = {2002}}
+
+@inproceedings{Nooijen:CCCodes:02-2,
+	Author = {G. Baumgartner and D.E. Bernholdt and D. Cociorva and R. Harrison and S. Hirata and C. Lam and M. Nooijen and R. Pitzer and J. Ramanujam and P. Sadayappan},
+	Booktitle = {Proceedings of Supercomputing 2002 (Baltimore, Maryland)},
+	Title = {A High-Level approach to Synthesis of High-Performance Codes for Quantum Chemistry},
+	Year = {2002}}
+
+@inproceedings{Nooijen:CCCodes:02-3,
+	Author = {G. Baumgartner and D.E. Bernholdt and D. Cociorva and R. Harrison and C. Lam and M. Nooijen and J. Ramanujam and P. Sadayappan},
+	Booktitle = {7th International Workshop on High-Level Parallel Programming Models and Supportive Environments (HIPS '02) (Fort Lauderdale, Florida)},
+	Title = {A Performance Optimization Framework for Compilation of tensor Contraction Expressions into Parallel Programs},
+	Year = {2002}}
+
+@article{Nooijen:TCE:05,
+	Author = {A.A. Auer and G. Baumgartner and D. E. Bernholdt and A. Bibireata and V. Choppella and D. Cociorva and X.Y. Gao and R. Harrison and S. Krishnamoorthy and S. Krishnan and C.C. Lam and Q.D. Lu and M. Nooijen and R. Pitzer and J. Ramanujam and S. Sadayapan and A. Sibiryakov},
+	Journal = mp,
+	Pages = {211--228},
+	Title = {Automatic Code Generation for Many-Body Electronic Structure Methods: The Tensor Contraction Engine},
+	Volume = {104},
+	Year = {2006}}
+
+@article{RJB:1981:CCRev,
+	Author = {R. J.~Bartlett},
+	Journal = arpc,
+	Optannote = {Perturbative analysis of CC anasatz at every iteration},
+	Optnote = {Diagrammatic techniques for MBPT and SRCC also discussed},
+	Pages = {359-401},
+	Title = {Many-body perturbation theory and coupled cluster theory for electron correlation in molecules},
+	Volume = {32},
+	Year = {1981}}
+
+@article{Subotnik:LCCD,
+	Author = {J.E. Subotnik and M. Head-Gordon},
+	Journal = jcp,
+	Pages = {064108},
+	Title = {A local correlation model that yields intrinsically smooth potential energy surfaces},
+	Volume = {123},
+	Year = {2005}}
+
+@article{Subotnik:LCCSD,
+	Author = {J.E. Subotnik and A. Sodt and M. Head-Gordon},
+	Journal = jcp,
+	Pages = {074116},
+	Title = {A near linear-scaling smooth local coupled cluster algorithm for electronic structure},
+	Volume = {125},
+	Year = {2006}}
+
+@article{Subotnik:LCC,
+	Author = {J.E. Subotnik and A. Sodt and M. Head-Gordon},
+	Journal = jcp,
+	Pages = {034103},
+	Title = {The limits of local correlation theory: {E}lectronic delocalization and chemically smooth potential energy surfaces},
+	Volume = {128},
+	Year = {2008}}
+
+@article{Crawford:LocalEOM,
+	Author = {T. D. Crawford and R. A. King},
+	Journal = cpl,
+	Pages = {611-622},
+	Title = {Locally correlated equation-of-motion coupled cluster theory for the excited states of large molecules},
+	Volume = {366},
+	Year = {2002}}
+
+@article{Baumgartner:TCE,
+	Author = {G. Baumgartner and A. Auer and D. E. Bernholdt and A. Bibireata and V. Choppella and D. Cociorva and X. Gao and R. J. Harrison and S. Hirata and S. Krishnamoorty and S. Krishnan and C.-C. Lam and Q. Lu and M. Nooijen and R. M. Pitzer and J. Ramanujam and P. Sadayappan and A. Sibiryakov},
+	Journal = {Proc. {IEEE}},
+	Pages = {276--292},
+	Title = {Synthesis of High-Performance Parallel Programs for a Class of Ab Initio Quantum Chemistry Models},
+	Volume = {93},
+	Year = {2005}}
+
+@article{Christiansen:CCPOL:99,
+	Author = {O. Christiansen and J. Gauss and J. F. Stanton},
+	Journal = cpl,
+	Pages = {147-155},
+	Title = {Frequency-dependent polarizabilities and first hyperpolarizabilities of {CO} and {H$_2$O} from coupled cluster calculations},
+	Volume = {305},
+	Year = {1999}}
+
+@article{Christiansen:NLORev:98,
+	Author = {O. Christiansen and P. J{\o}rgensen and C. H{\"a}ttig},
+	Journal = ijqc,
+	Pages = {1-52},
+	Title = {Response functions from {Fourier} component variational perturbation theory applied to a time-averaged quasienergy},
+	Volume = {68},
+	Year = {1998}}
+
+@article{Tajti:NAC:09,
+	Author = {A. Tajti and P.G. Szalay},
+	Journal = jcp,
+	Pages = {124104},
+	Title = {Analytic evaluation of the nonadiabatic coupling vector between excited states using equation-of-motion coupled-cluster theory},
+	Volume = {131},
+	Year = {2009}}
+
+@article{Christiansen:EOMRev:11,
+	Author = {K. Sneskov and O. Christiansen},
+	Journal = wires,
+	Optdoi = {10.1002/wcms.99},
+	Optissn = {1759-0884},
+	Optpages = {n/a--n/a},
+	Opturl = {http://dx.doi.org/10.1002/wcms.99},
+	Pages = {566-584},
+	Publisher = {John Wiley \& Sons, Inc.},
+	Title = {Excited state coupled cluster methods},
+	Volume = {2},
+	Year = {2012}}
+
+@article{Bartlet:EOMRev:12,
+	Author = {R. J. Bartlett},
+	Journal = wires,
+	Number = {1},
+	Optdoptoi = {10.1002/wcms.76},
+	Optissn = {1759-0884},
+	Opturl = {http://dx.doi.org/10.1002/wcms.76},
+	Pages = {126--138},
+	Publisher = {John Wiley \& Sons, Inc.},
+	Title = {Coupled-cluster theory and its equation-of-motion extensions},
+	Volume = {2},
+	Year = {2012}}
+
+@article{Dreuw:ADC:10,
+	Author = {S. Knippenberg and J. Starcke and M. Wormit and A. Dreuw},
+	Journal = mp,
+	Pages = {2801},
+	Title = {The low-lying excited states of neutral polyacenes and their radical cations: a quantum chemical study employing the algebraic diagrammatic construction scheme of second order},
+	Volume = {108},
+	Year = {2010}}
+
+@article{Stanton:EOMIPdeg:09,
+	Author = {T. Ichino and J. Gauss and J. F. Stanton},
+	Journal = jcp,
+	Number = {17},
+	Pages = {174105},
+	Title = {Quasidiabatic states described by coupled-cluster theory},
+	Volume = {130},
+	Year = {2009}}
+
+@article{Nooijen:DIP-AS:09,
+	Author = {L. Kong and K. R. Shamasundar and O. Demel and M. Nooijen},
+	Journal = jcp,
+	Pages = {114101},
+	Title = {State specific equation of motion coupled cluster method in general active space},
+	Volume = {130},
+	Year = {2009}}
+
+@article{Nooijen:DIP_DIRAD:08,
+	Author = {O. Demel and K. R. Shamasundar and L. Kong and M. Nooijen},
+	Journal = jpca,
+	Pages = {11895-11902},
+	Title = {Application of Double Ionization State-Specific Equation of Motion Coupled Cluster Method to Organic Diradicals},
+	Volume = {112},
+	Year = {2008}}
+
+@article{Nooijen:DIP_Cu2O2:08,
+	Author = {L. Kong and M. Nooijen},
+	Journal = ijqc,
+	Pages = {2097-2107},
+	Title = {Study of energetics of end-on and side-on peroxide coordination in ligated {Cu$_2$O$_2$} models with state-specific equation of motion coupled cluster method},
+	Volume = {108},
+	Year = {2008}}
+
+@article{Dreuw:TPA:2010,
+	Author = {S. Knippenberg and D.R. Rehn and M. Wormit and J.H. Starcke and I.L. Rusakova and A.B. Trofimov and A. Dreuw},
+	Journal = jcp,
+	Number = {6},
+	Pages = {064107},
+	Title = {Calculations of nonlinear response properties using the intermediate state representation and the algebraic-diagrammatic construction polarization propagator approach: {Two}-photon absorption spectra},
+	Volume = {136},
+	Year = {2012}}
+
+@article{Ruud:RICC22PA:12,
+	Author = {D.H. Friese and C. H{\"a}ttig and K. Ruud},
+	Journal = pccp,
+	Pages = {1175-1184},
+	Title = {Calculation of two-photon absorption strengths with the approximate coupled cluster singles and doubles model CC2 using the resolution-of-identity approximation},
+	Volume = {14},
+	Year = {2012}}
+
+@article{Purvis:82,
+	Author = {G. D. Purvis and R. J. Bartlett},
+	Journal = jcp,
+	Pages = {1910-1918},
+	Title = {A full coupled-cluster singles and doubles model: The inclusion of disconnected triples},
+	Volume = {76},
+	Year = {1982}}
+
+@article{Kohn:07:NonHermitian,
+	Author = {A.~K\"{o}hn and A.~Tajti},
+	Journal = jcp,
+	Optnote = {In press. Formal analysis and numeric examples demonstrating how non-Hermitian nature of EOM affects the topology of conical intersections Non-hermiti},
+	Pages = {044105},
+	Title = {Can coupled-cluster theory treat conical intersections?},
+	Volume = {127},
+	Year = {2007}}
+
+@article{Stanton:SpinAdapt:90,
+	Author = {J. F. Stanton and J. Gauss and J. D. Watts and R. J. Bartlett},
+	Journal = jcp,
+	Pages = {4334-4345},
+	Title = {A direct product decomposition approach for symmetry exploitation in many-body methods. {I.} Energy calculations},
+	Volume = {94},
+	Year = {1990}}
+
+@article{Neese:LocalCC:13,
+	Author = {C. Riplinger and F. Neese},
+	Journal = jcp,
+	Pages = {034106},
+	Title = {An efficient and near linear scaling pair natural orbital based local coupled cluster method},
+	Volume = {138},
+	Year = {2013}}
+
+@article{HeadGordon:RASSF:13,
+	Author = {F. Bell and P.M. Zimmerman and D. Casanova and M. Goldey and M. Head-Gordon},
+	Journal = pccp,
+	Pages = {358-366},
+	Title = {Restricted active space spin-flip ({RAS-SF}) with arbitrary number of spin-flips},
+	Volume = {15},
+	Year = {2013}}
+
+@article{Piecuch:DIPorbs:14,
+	Author = {J. Shen and P. Piecuch},
+	Journal = mp,
+	Pages = {868-885},
+	Title = {Doubly electron-attached and doubly ionised equation-of-motion coupled-cluster methods with full and active-space treatments of 4-particle-2-hole and 4-hole-2-particle excitations: the role of orbital choices},
+	Volume = {112},
+	Year = {2014}}
+
+@article{Piecuch:DIP:13,
+	Author = {J. Shen and P. Piecuch},
+	Journal = jcp,
+	Pages = {194102},
+	Title = {Doubly electron-attached and doubly ionized equation-of-motion coupled-cluster methods with 4-particle-2-hole and 4-hole-2-particle excitations and their active-space extensions},
+	Volume = {138},
+	Year = {2013}}
+
+@article{Bartlett:PostHF:94,
+	Annote = {Review of correlation methods. Discusses PESs},
+	Author = {R. J.~Bartlett and J. F.~Stanton},
+	Journal = rcc,
+	Pages = {65-169},
+	Title = {Applications of post-{H}artree-{F}ock methods: {A} tutorial},
+	Volume = {5},
+	Year = {1994}}
+
+@incollection{Bartlett:Book:09,
+	Address = {Cambridge},
+	Author = {I. Shavitt and R. J. Bartlett},
+	Booktitle = {Many-body methods in chemistry and physics: {MBPT} and coupled-cluster theory},
+	Publisher = {Cambridge University Press},
+	Year = {2009}}
+
+@article{Casanova:RASSForig:09,
+	Author = {D. Casanova and M. Head-Gordon},
+	Journal = pccp,
+	Pages = {9779-9790},
+	Title = {Restricted active space spin-flip configuration interaction approach: {Theory}, implementation and examples},
+	Volume = {11},
+	Year = {2009}}
+
+@article{Kobayashi:CCPOL:93,
+	Author = {R.~Kobayashi and H.~Koch and P.~J{\o}rgensen},
+	Journal = cpl,
+	Pages = {30-35},
+	Title = {Calculation of frequency-dependent polarizabilities using coupled-cluster response theory},
+	Volume = {219},
+	Year = {1994}}
+
+@article{Zimmerman:2012:RASSF,
+	Author = {P. M. Zimmerman and F. Bell and M. Goldey and A. T. Bell and M. Head-Gordon},
+	Journal = jcp,
+	Number = {16},
+	Pages = {164110},
+	Title = {Restricted active space spin-flip configuration interaction: {Theory} and examples for multiple spin flips with odd numbers of electrons},
+	Volume = {137},
+	Year = {2012}}
+
+@article{Mayhall:2014:PT_hp,
+	Author = {N. J. Mayhall and M. Goldey and M. Head-Gordon},
+	Journal = jctc,
+	Pages = {589-599},
+	Title = {A quasidegenerate second order perturbation theory approximation to the restricted active space spin flip method for excited states and strong correlations},
+	Volume = {10},
+	Year = {2014}}
+
+@article{Mayhall:2014:PT_S,
+	Author = {N. J. Mayhall and M. Head-Gordon},
+	Journal = jcp,
+	Pages = {044112},
+	Title = {Increasing spin-flips and decreasing cost: {Perturbative} corrections for external singles to the complete active space spin flip model for low-lying excited states and strong correlation},
+	Volume = {141},
+	Year = {2014}}
+
+@article{Mayhall:2014:SF-NOCI,
+	Author = {N. J. Mayhall and P. R. Horn and E. J. Sundstrom and M. Head-Gordon},
+	Journal = pccp,
+	Number = {41},
+	Pages = {22694-22705},
+	Title = {Spin-flip non-orthogonal configuration interaction: a variational and almost black-box method for describing strongly correlated molecules},
+	Volume = {16},
+	Year = {2014}}
+
+@article{Mayhall:2014:HDVV,
+	Author = {N. J. Mayhall and M. Head-Gordon},
+	Journal = jcp,
+	Number = {13},
+	Pages = {134111},
+	Title = {Computational quantum chemistry for single {Heisenberg} spin couplings made simple: {Just} one spin flip required},
+	Volume = {141},
+	Year = {2014}}
+
+@article{Mayhall:1SF:2015,
+	Author = {N. J. Mayhall and M. Head-Gordon},
+	Journal = jpcl,
+	Pages = {1982-1988},
+	Title = {Computational Quantum Chemistry for Multiple-Site {Heisenberg} Spin Couplings Made Simple: {Still} Only One Spin-Flip Required},
+	Volume = {6},
+	Year = {2015}}
+
+@article{StantonGauss:EOMgrad:94,
+	Author = {J. F. Stanton and J. Gauss},
+	Journal = jcp,
+	Pages = {4695-4698},
+	Title = {Analytic energy gradients for the equation-of-motion coupled-cluster method: {Implementation} and application to the {HCN/HNC} system},
+	Volume = {100},
+	Year = {1994}}
+
+@article{Bartlett:Pol:97,
+	Author = {P. B. Rozyczko and S. A. Perera and M. Nooijen and R. J. Bartlett},
+	Journal = jcp,
+	Pages = {6736-6747},
+	Title = {Correlated calculations of molecular dynamic polarizabilities},
+	Volume = {107},
+	Year = {1997}}
+
+@article{Gauss:Pol:06,
+	Author = {M. K{\'a}llay and J. Gauss},
+	Journal = jmst,
+	Pages = {71-77},
+	Title = {Calculation of frequency-dependent polarizabilities using general coupled-cluster models},
+	Volume = {768},
+	Year = {2006}}
+
+@article{Gauss:HyperPol:07,
+	Author = {D.P. O'Neill and M. K{\'a}llay and J. Gauss},
+	Journal = jcp,
+	Pages = {134109},
+	Title = {Calculation of frequency-dependent hyperpolarizabilities using general coupled-cluster models},
+	Volume = {127},
+	Year = {2007}}
+
+@article{Wenzel:CVS-closedshell:2014,
+	Author = {J. Wenzel and M. Wormit and A. Dreuw},
+	Journal = jcc,
+	Pages = {1900--1915},
+	Title = {Calculating core-level excitations and x-ray absorption spectra of medium-sized closed-shell molecules with the algebraic-diagrammatic construction scheme for the polarization propagator},
+	Volume = {35},
+	Year = {2014}}
+
+@article{Wenzel:CVS-openshell:2014,
+	Author = {J. Wenzel and M. Wormit and A. Dreuw},
+	Journal = jctc,
+	Pages = {4583--4598},
+	Title = {Calculating X-ray Absorption Spectra of Open-Shell Molecules with the Unrestricted Algebraic-Diagrammatic Construction Scheme for the Polarization Propagator},
+	Volume = {10},
+	Year = {2014}}
+
+@article{Nooijen:CoreEOM:95,
+	Author = {M. Nooijen and R. J. Bartlett},
+	Journal = jcp,
+	Pages = {6735-6756},
+	Title = {Description of core-excitation spectra by the open-shell electron-attachment equation-of-motion coupled cluster method},
+	Volume = {102},
+	Year = {1995}}
+
+@article{Mukherjee:Core:13,
+	Author = {S. Sen and A. Shee and D. Mukherjee},
+	Journal = mp,
+	Pages = {2625-2639},
+	Title = {A study of the ionisation and excitation energies of core electrons using a unitary group adapted state universal approach},
+	Volume = {11},
+	Year = {2013}}
+
+@article{Cederbaum:Ammonia:12,
+	Author = {N.V. Kryzhevoi and L.S. Cederbaum},
+	Journal = jpcl,
+	Pages = {2733-2737},
+	Title = {Exploring Protonation and Deprotonation Effects with {Auger} Electron Spectroscopy},
+	Volume = {3},
+	Year = {2012}}
+
+@article{Christiansen:NAC:99,
+	Author = {O. Christiansen},
+	Journal = jcp,
+	Pages = {711-723},
+	Title = {First-order nonadiabatic coupling matrix elements using coupled cluster methods. {I. Theory}},
+	Volume = {110},
+	Year = {1999}}
+
+@article{XLi:ShiftedDavidson:15,
+	Author = {B. Peng and P.J. Lestrange and J.J. Goings and M. Caricato and X. Li},
+	Journal = jctc,
+	Pages = {4146-4153},
+	Title = {Energy-Specific Equation-of-Motion Coupled-Cluster Methods for High-Energy Excited States: {Application} to {K‐edge X‐ray} Absorption Spectroscopy},
+	Volume = {11},
+	Year = {2015}}
+
+@article{Coriani:CVSEOM:15,
+	Author = {S. Coriani and H. Koch},
+	Journal = jcp,
+	Pages = {181103},
+	Title = {Communication: {X-ray} absorption spectra and core-ionization potentials within a core-valence separated coupled cluster framework},
+	Volume = {143},
+	Year = {2015}}
+
+@article{Coriani:CVSEOM-Err:15,
+	Author = {S. Coriani and H. Koch},
+	Journal = jcp,
+	Pages = {149901},
+	Title = {Erratum: "{Communication}: {X-ray} absorption spectra and core-ionization potentials within a core-valence separated coupled cluster framework" {[J. Chem. Phys. 143, 181103 (2015)}]},
+	Volume = {145},
+	Year = {2016}}
+
+@article{Coriani:DumpRCC:13,
+	Author = {J. Kauczor and P. Norman and O. Christiansen and S. Coriani},
+	Journal = jcp,
+	Pages = {211102},
+	Title = {Communication: A reduced-space algorithm for the solution of the complex linear response equations used in coupled cluster damped response theory},
+	Volume = {139},
+	Year = {2013}}
+
+@article{Coriani:CoreLancosz:12,
+	Author = {S. Coriani and O. Christiansen and T. Fransson and P. Norman},
+	Journal = pra,
+	Pages = {022507},
+	Title = {Coupled-cluster response theory for near-edge x-ray-absorption fine structure of atoms and molecules},
+	Volume = {85},
+	Year = {2012}}
+
+@article{Bartlett:CoreVCC:13,
+	Author = {T. J. Watson and R. J. Bartlett},
+	Journal = cpl,
+	Pages = {235-238},
+	Title = {Infinite order relaxation effects for core ionization energies with a variational coupled cluster ansatz},
+	Volume = {555},
+	Year = {2013}}
+
+@article{Cederbaum:CVSorig:80,
+	Author = {L. S. Cederbaum and W. Domcke and J. Schirmer},
+	Journal = pra,
+	Pages = {206},
+	Title = {Many-body theory of core holes},
+	Volume = {22},
+	Year = {1980}}
+
+@article{Ghosh:EOMSFMP2,
+	Author = {D. Ghosh},
+	Journal = jcp,
+	Pages = {124116},
+	Title = {Perturbative approximations to single and double spin-flip equation-of-motion coupled-cluster singles doubles methods},
+	Volume = {139},
+	Year = {2013}}
+
+@article{Norman:PolProp:06,
+	Author = {U. Ekstr{\"o}m and P. Norman and V. Carravetta and H. {\AA}gren},
+	Journal = prl,
+	Pages = {143001},
+	Title = {Polarization Propagator for X-Ray Spectra},
+	Volume = {97},
+	Year = {2006}}
+
+@article{Norman:PolProp-2:06,
+	Author = {U. Ekstr{\"o}m and P. Norman},
+	Journal = pra,
+	Pages = {042722},
+	Title = {X-ray absorption spectra from the resonant-convergent first-order polarization propagator approach},
+	Volume = {74},
+	Year = {2006}}
+
+@article{Pettersson:STEX:94,
+	Author = {H. {\AA}rgen and V. Carravetta and O. Vahtras and L.G.M. Pettersson},
+	Journal = cpl,
+	Pages = {75-81},
+	Title = {Direct, atomic orbital, static exchange calculations of photoabsorption spectra of large molecules and clusters},
+	Volume = {222},
+	Year = {1994}}
+
+@article{Dreuw:ADCSF:15,
+	Author = {D. Lefrancois and M. Wormit and A. Dreuw},
+	Journal = jcp,
+	Pages = {124107},
+	Title = {Adapting algebraic diagrammatic construction schemes for the polarization propagator to problems with multi-reference electronic ground states exploiting the spin-flip ansatz},
+	Volume = {143},
+	Year = {2015}}
+
+@article{Dreuw:ADCSF:16,
+	Author = {D. Lefrancois and D. Rehn and A. Dreuw},
+	Journal = jcp,
+	Pages = {084102},
+	Title = {Accurate adiabatic singlet-triplet gaps in atoms and molecules employing the third- order spin-flip algebraic diagrammatic construction scheme for the polarization propagator},
+	Volume = {145},
+	Year = {2016}}
+
+@article{Dreuw:ADCSF_MECP:17,
+	Author = {D. Lefrancois and D. Tuna and T.J. Martinez and A. Dreuw},
+	Journal = jctc,
+	Pages = {4436-4441},
+	Title = {The Spin-Flip Variant of the Algebraic-Diagrammatic Construction Yields the Correct Topology of {S$_1$/S$_0$} Conical Intersections},
+	Volume = {13},
+	Year = {2017}}
+
+@article{Gauss:DBOC:11,
+	Author = {J. Gauss and A. Tajti and M. K{\'a}llay and J. F. Stanton and P. G. Szalay},
+	Journal = jcp,
+	Pages = {144111},
+	Title = {Analytic calculation of the diagonal {Born-Oppenheimer} correction within configuration-interaction and coupled-cluster theory},
+	Volume = {125},
+	Year = {2006}}
+
+@article{Gauss:X1CSOC:18,
+	Author = {L. Cheng and F. Wang and J. F. Stanton and J. Gauss},
+	Journal = jcp,
+	Pages = {044108},
+	Title = {Perturbative treatment of spin-orbit-coupling within spin-free exact two-component theory using equation-of-motion coupled-cluster methods},
+	Volume = {148},
+	Year = {2018}}
+
+@article{Koehn:MRCCResp:14,
+	Author = {P.K. Samanta and D. Mukherjee and M. Hanauer and A. K\"ohn},
+	Journal = jcp,
+	Pages = {134108},
+	Title = {Excited states with internally contracted multireference coupled-cluster linear response theory},
+	Volume = {140},
+	Year = {2014}}
+
+@article{Arponen:CCRev:90,
+	Author = {R.F. Bishop and J.S. Arponen},
+	Journal = ijqcs,
+	Pages = {197-211},
+	Title = {CORRELATIONS IN EXTENDED SYSTEMS - A MICROSCOPIC MULTILOCAL METHOD FOR DESCRIBING BOTH LOCAL AND GLOBAL PROPERTIES},
+	Volume = {24},
+	Year = {1990}}
+
+@article{Arponen:1983,
+	Author = {J. Arponen},
+	Journal = {Ann. Phys.},
+	Pages = {311-382},
+	Title = {VARIATIONAL-PRINCIPLES AND LINKED-CLUSTER EXP{S}-EXPANSIONS FOR STATIC AND DYNAMIC MANY-BODY PROBLEMS},
+	Volume = {151},
+	Year = {1983}}
+
+@article{Coriani:EOMCCprop:16,
+	Author = {S. Coriani and F. Paw{\l}owski and J. Olsen and P. J{\o}rgensen},
+	Journal = jcp,
+	Pages = {024102},
+	Title = {Molecular response properties in equation of motion coupled cluster theory: A time-dependent perspective},
+	Volume = {144},
+	Year = {2016}}
+
+@article{Kongsted:DECore:18,
+	Author = {D. Hr{\v s}ak and M. S. N{\o}rby and S. Coriani and J. Kongsted},
+	Journal = jctc,
+	Pages = {2145-2154},
+	Title = {One-Photon Absorption Properties from a Hybrid Polarizable Density Embedding/Complex Polarization Propagator Approach for Polarizable Solutions},
+	Volume = {14},
+	Year = {2018}}
+
+@article{Gelmukhanov:RIXS:99,
+	Author = {F. Gel'mukhanov and H. {\AA}rgen},
+	Journal = {Phys. Rep.},
+	Pages = {87-330},
+	Title = {Resonant {X}-Ray Raman Scattering},
+	Volume = {312},
+	Year = {1999}}
+
+@article{Gauss:gtensorBench:2017,
+	Author = {A. Perera and J. Gauss and P. Verma and J. A. Morales},
+	Journal = jcp,
+	Pages = {164104},
+	Title = {Benchmark coupled-cluster g-tensor calculations with full inclusion of the two-particle spin-orbit contributions},
+	Volume = {146},
+	Year = {2017}}
+
+@article{Gauss:gTformalism:09,
+	Author = {J. Gauss and M. Kallay and F. Neese},
+	Journal = jpca,
+	Pages = {11541-11549},
+	Title = {Calculation of Electronic g-Tensors using Coupled Cluster Theory},
+	Volume = {113},
+	Year = {2009}}
+
+@article{Neese:LocalPNOCCSD:2009,
+	Author = {F. Neese and A. Hansen and D. G. Liakos},
+	Journal = jcp,
+	Pages = {064103},
+	Title = {Efficient and accurate approximations to the local coupled cluster singles doubles method using a truncated pair natural orbital basis},
+	Volume = {131},
+	Year = {2009}}
+
+@article{Neese:LocalT:2013,
+	Author = {C. Riplinger and B. Sandhoefer and A. Hansen and F. Neese},
+	Journal = jcp,
+	Pages = {134101},
+	Title = {Natural triple excitations in local coupled cluster calculations with pair natural orbitals},
+	Volume = {139},
+	Year = {2013}}
+
+@article{Werner:PNOLMP2:2015,
+	Author = {H.-J. Werner and G. Knizia and C. Krause and M. Schwilk and M. Dornbach},
+	Journal = jctc,
+	Pages = {484-507},
+	Title = {Scalable Electron Correlation Methods {I.: PNO-LMP2} with Linear Scaling in the Molecular Size and Near-Inverse-Linear Scaling in the Number of Processors},
+	Volume = {11},
+	Year = {2015}}
+
+@article{Koch:Hessian:92,
+	Author = {H. Koch and H. J. Aa. Jensen and T. Helgaker and P. J{\o}rgensen and G. E. Scuseria and H. F. {Schaefer~III}},
+	Journal = jcp,
+	Pages = {4924-4940},
+	Title = {COUPLED CLUSTER ENERGY DERIVATIVES --- ANALYTIC {Hessian} FOR THE CLOSED-SHELL COUPLED CLUSTER SINGLES AND DOUBLES WAVE-FUNCTION-THEORY AND APPLICATIONS},
+	Volume = {92},
+	Year = {1990}}
+
+@article{Gauss:CCSDT:2002,
+	Author = {J. Gauss},
+	Journal = jcp,
+	Pages = {4773-4776},
+	Title = {Analytic second derivatives for the full coupled-cluster singles, doubles, and triples model: {Nuclear} magnetic shielding constants for {BH}, {HF}, {CO}, {N}$_2$, {N$_2$O}, and {O$_3$}},
+	Volume = {116},
+	Year = {2002}}
+
+@article{DaltonCCgrad:03,
+	Author = {K. Hald and A. Halkier and P. J{\o}rgensen and S. Coriani and C. H{\"a}ttig and T. Helgaker},
+	Journal = jcp,
+	Pages = {2985-2998},
+	Title = {A {Lagrangian}, integral-density direct formulation and implementation of the analytic {CCSD} and {CCSD(T)} gradients},
+	Volume = {118},
+	Year = {2003}}
+
+@article{Koch:IntDireect:96,
+	Author = {H. Koch and A. {S{\'a}nchez de Mer{\'a}z} and T. Helgaker and O. Christiansen},
+	Journal = jcp,
+	Pages = {4157},
+	Title = {The integral‐direct coupled cluster singles and doubles model},
+	Volume = {104},
+	Year = {1996}}
+
+@article{Koch:ML:2014,
+	Author = {R. H. Myhre and A. M. J. {Sanchez~de~Meras} and H. Koch},
+	Journal = jcp,
+	Pages = {224105},
+	Title = {Multi-level coupled cluster theory},
+	Volume = {141},
+	Year = {2014}}
+
+@article{Koch:MLCC3:2016,
+	Author = {R. H. Myhre and H. Koch},
+	Journal = jcp,
+	Pages = {044111},
+	Title = {The multilevel {CC3} coupled cluster model},
+	Volume = {145},
+	Year = {2016}}
+
+@article{Koch:MLHF:2017,
+	Author = {S. Saether and T. Kjaergaard and H. Koch and I.-M. H{\o}yvik},
+	Journal = jctc,
+	Pages = {5282-5290},
+	Title = {Density-Based Multilevel {Hartree-Fock} Model},
+	Volume = {13},
+	Year = {2017}}
+
+@article{Bartlett:OSGrads:1992,
+	Author = {J. D. Watts and J. Gauss and R. J. Bartlett},
+	Journal = cpl,
+	Pages = {1-7},
+	Title = {Open-shell analytical energy gradients for triple excitation many-body, coupled-cluster methods: {MBPT(4)}, {CCSDtT(CCSD)}, {CCSD(T)}, and {QCISD(T)}},
+	Volume = {200},
+	Year = {1992}}
+
+@article{Scuseria:SpinAdCCSD:1988,
+	Author = {G. E. Scuseria and C. L. Janssen and H. F. Schaefer},
+	Journal = jcp,
+	Optnote = {doi: 10.1063/1.455269},
+	Pages = {7382},
+	Title = {An efficient reformulation of the closedshell coupled cluster single and double excitation {(CCSD)} equations},
+	Volume = {89},
+	Year = {1998}}
+
+@article{Matthews:SpinAdCC:2013,
+	Author = {D. A. Matthews and J. Gauss and J. F. Stanton},
+	Journal = jctc,
+	Pages = {2567-2572},
+	Title = {Revisitation of Nonorthogonal Spin Adaptation in Coupled Cluster Theory},
+	Volume = {9},
+	Year = {2013}}
+
+@article{Coriani:Lanczos:Nexafs,
+	Author = {S. Coriani and T. Fransson and O. Christiansen and P. Norman},
+	Journal = jctc,
+	Pages = {1616-1628},
+	Title = {Asymmetric-{Lanczos}-Chain-Driven Implementation of Electronic Resonance Convergent Coupled-Cluster Linear Response Theory},
+	Volume = {8},
+	Year = {2012}}
+
+@article{DePrince:Core-RPA:18,
+	Author = {E. Maradzike and A. E. {DePrince~III}},
+	Journal = jcp,
+	Pages = {234101},
+	Title = {Modeling core-level excitations with variationally optimized reduced-density matrices and the extended random phase approximation},
+	Volume = {149},
+	Year = {2018}}
+
+@article{Coriani:RIXS-CVS:2019,
+	Author = {R. Faber and S. Coriani},
+	Journal = pccp,
+	Note = {in press; DOI: 10.1039/c9cp03696b},
+	Title = {Core--valence-separated coupled-cluster-singles-and-doubles complex-polarization-propagator approach to {X}-ray spectroscopies},
+	Year = {2019}}
+
+@article{Norman:RespProp:2011,
+	Author = {P. Norman},
+	Journal = pccp,
+	Pages = {20519--20535},
+	Title = {A perspective on non resonant and resonant electronic response theory for time-dependent molecular properties},
+	Volume = {12},
+	Year = {2011}}
+
+@article{Koch:NEXAFS:2016,
+	Author = {R.H. Myhre and S. Coriani and H. Koch},
+	Journal = jctc,
+	Pages = {2633--2643},
+	Title = {Near-Edge {X}-ray Absorption Fine Structure within Multilevel Coupled Cluster Theory},
+	Volume = {12},
+	Year = {2016}}
+
+@article{Coriani:CVS:Photoionization:2019,
+	Author = {B.N.C. Tenorio and T. Moitra and M.A.C. Nascimento and A.B. Rocha and S. Coriani},
+	Journal = jcp,
+	Pages = {224104},
+	Title = {Molecular inner-shell photoabsorption/photoionization cross sections at core-valence-separated coupled cluster level: {T}heory and examples},
+	Volume = {150},
+	Year = {2019}}
+
+@article{Jagau:triples:18,
+	Author = {T. C. Jagau},
+	Journal = jcp,
+	Pages = {024104},
+	Title = {Non-iterative triple excitations in equation-of-motion coupled-cluster theory for electron attachment with applications to bound and temporary anions},
+	Volume = {148},
+	Year = {2018}}
+
+@article{Kallay:locCCSDpT:2018,
+	Author = {P. R. Nagy and G. Samu and M. K{\'a}llay},
+	Journal = jctc,
+	Number = {8},
+	Pages = {4193--4215},
+	Title = {Optimization of the Linear-Scaling Local Natural Orbital {CCSD(T)} Method: {Improved} Algorithm and Benchmark Applications},
+	Volume = {14},
+	Year = {2018}}
+
+@article{Neese:locCEPA:2009,
+	Author = {F. Neese and F. Wennmohs and A. Hansen},
+	Journal = jcp,
+	Number = {11},
+	Pages = {114108},
+	Title = {Efficient and accurate local approximations to coupled-electron pair approaches: {An} attempt to revive the pair natural orbital method},
+	Volume = {130},
+	Year = {2009}}
+
+@article{Schulz:CCSDpT:2014,
+	Author = {M. Sch{\"u}tz and O. Masur and D. Usvyat},
+	Journal = jcp,
+	Number = {24},
+	Pages = {244107},
+	Title = {Efficient and accurate treatment of weak pairs in local CCSD(T) calculations. II. Beyond the ring approximation},
+	Volume = {140},
+	Year = {2014}}
+
+@article{NeeseValeev:DLPNO-CCSD:2017,
+	Author = {M. Saitow and U. Becker and C. Riplinger and E. F. Valeev and F. Neese},
+	Journal = jcp,
+	Number = {16},
+	Pages = {164105},
+	Title = {A new near-linear scaling, efficient and accurate, open-shell domain-based local pair natural orbital coupled cluster singles and doubles theory},
+	Volume = {146},
+	Year = {2017}}
+
+@article{Kallay:NO-CC2:2017,
+	Author = {D. Mester and P. R. Nagy and M. K{\'a}llay},
+	Journal = jcp,
+	Number = {19},
+	Pages = {194102},
+	Title = {Reduced-cost linear-response {CC2} method based on natural orbitals and natural auxiliary functions},
+	Volume = {146},
+	Year = {2017}}
+
+@article{Klopper:NTO:excitation:2017,
+	Author = {S. H{\"o}fener and W. Klopper},
+	Journal = cpl,
+	Pages = {52--59},
+	Title = {Natural transition orbitals for the calculation of correlation and excitation energies},
+	Volume = {679},
+	Year = {2017}}
+
+@article{Kristensen:NTO:2017,
+	Author = {P. Baudin and K. Kristensen},
+	Journal = jcp,
+	Number = {21},
+	Pages = {214114},
+	Title = {Correlated natural transition orbital framework for low-scaling excitation energy calculations (CorNFLEx)},
+	Volume = {146},
+	Year = {2017}}
+
+@article{Schulz:locCC2:exc:2010,
+	Author = {K. Freundorfer and D. Kats and T. Korona and M. Sch{\"u}tz},
+	Journal = jcp,
+	Title = {Local {CC2} response method for triplet states based on {Laplace} transform: Excitation energies and first-order properties}}
+
+@article{Valeev:SA-PNO-EOM-CC:2018,
+	Author = {C. Peng and M. C. Clement and E. F. Valeev},
+	Journal = jctc,
+	Number = {11},
+	Pages = {5597--5607},
+	Title = {State-Averaged Pair Natural Orbitals for Excited States: A Route toward Efficient Equation of Motion Coupled-Cluster},
+	Volume = {14},
+	Year = {2018}}
+
+@article{Neese:DLPNO:EOMIP:2018,
+	Author = {A. K. Dutta and M. Saitow and C. Riplinger and F. Neese and R. Izs{\'a}k},
+	Journal = jcp,
+	Number = {24},
+	Pages = {244101},
+	Title = {A near-linear scaling equation of motion coupled cluster method for ionized states},
+	Volume = {148},
+	Year = {2018}}
+
+@article{Matthews:triples:16,
+	Author = {D. A. Matthews and J. F. Stanton},
+	Journal = jcp,
+	Pages = {124102},
+	Title = {A new approach to approximate equation-of-motion coupled cluster with triple excitations},
+	Volume = {145},
+	Year = {2016}}
+
+@article{Jeziorski:MRCC:1988,
+	Author = {B. Jeziorski and J. Paldus},
+	Journal = jcp,
+	Number = {9},
+	Pages = {5673--5687},
+	Title = {Spin‐adapted multireference coupled‐cluster approach: Linear approximation for two closed‐shell‐type reference configurations},
+	Volume = {88},
+	Year = {1988}}
+
+@article{Rittby:MRCC:1991,
+	Author = {C. M. L. Rittby and R. J. Bartlett},
+	Journal = tca,
+	Month = {Nov},
+	Number = {6},
+	Pages = {469--482},
+	Title = {Multireference coupled cluster theory in {F}ock space},
+	Volume = {80},
+	Year = {1991}}
