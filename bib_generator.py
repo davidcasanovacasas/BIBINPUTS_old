@@ -13,14 +13,14 @@ import shutil
 #################################   INPUT   #####################################
 
 #paper_file = 'manuscript_revised.tex'
-paper_file = '/Users/david/Dropbox/Book_Chapter/Revision/chapter_casanova_revised.tex'
+paper_file = '/Users/David/david/Group_Members/Carreras_Abel/TADF/Paper/main.tex'
 abbr_file = '/Users/david/Dropbox/BIBINPUTS/abbr.bib'
 
 #################################   OUTPUT   ####################################
 
 #output_bib_file = 'output'
-output_bib_file = '/Users/david/Dropbox/Book_Chapter/Revision/chapter_casanova_revised.bib'
-abbr_copy = '/Users/david/Dropbox/Book_Chapter/Revision/abbr.bib'
+output_bib_file = '/Users/David/david/Group_Members/Carreras_Abel/TADF/Paper/bibliography.bib'
+abbr_copy = '/Users/David/david/Group_Members/Carreras_Abel/TADF/Paper/abbr.bib'
 
 #################################################################################
 
