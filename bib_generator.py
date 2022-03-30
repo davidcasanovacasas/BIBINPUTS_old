@@ -13,14 +13,14 @@ import shutil
 #################################   INPUT   #####################################
 
 #paper_file = 'manuscript_revised.tex'
-paper_file = '/Users/David/david/Group_Members/Carreras_Abel/TADF/Paper/main.tex'
+paper_file = '/Users/david/David/Group_members/Carreras_Abel/TADF_dynamics/Paper/Revision/Manuscript/main_revised.tex'
 abbr_file = '/Users/david/Dropbox/BIBINPUTS/abbr.bib'
 
 #################################   OUTPUT   ####################################
 
 #output_bib_file = 'output'
-output_bib_file = '/Users/David/david/Group_Members/Carreras_Abel/TADF/Paper/bibliography.bib'
-abbr_copy = '/Users/David/david/Group_Members/Carreras_Abel/TADF/Paper/abbr.bib'
+output_bib_file = '/Users/david/David/Group_members/Carreras_Abel/TADF_dynamics/Paper/Revision/Manuscript/bibliography.bib'
+abbr_copy = '/Users/david/David/Group_members/Carreras_Abel/TADF_dynamics/Paper/Revision/Manuscript/abbr.bib'
 
 #################################################################################
 
