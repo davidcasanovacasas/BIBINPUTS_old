@@ -12,20 +12,22 @@ import shutil
 
 #################################   INPUT   #####################################
 
-#paper_file = 'manuscript_revised.tex'
-paper_file = '/Users/david/David/Group_members/Carreras_Abel/TADF_dynamics/Paper/Revision/Manuscript/main_revised.tex'
-abbr_file = '/Users/david/Dropbox/BIBINPUTS/abbr.bib'
+folder_input = '/Users/David/david/Group_Members/Carreras_Abel/TADF/Paper/Revision/Manuscript/'
+file_input = 'main_revised.tex'
+paper_file = folder_input + file_input
+abbr_file = 'abbr.bib'
+abbr_orig_file = '/Users/david/Dropbox/BIBINPUTS/' + abbr_file
 
 #################################   OUTPUT   ####################################
 
-#output_bib_file = 'output'
-output_bib_file = '/Users/david/David/Group_members/Carreras_Abel/TADF_dynamics/Paper/Revision/Manuscript/bibliography.bib'
-abbr_copy = '/Users/david/David/Group_members/Carreras_Abel/TADF_dynamics/Paper/Revision/Manuscript/abbr.bib'
+bib_file = 'bibliography.bib'
+output_bib_file = folder_input + bib_file
+abbr_copy = folder_input + abbr_file
 
 #################################################################################
 
 # Copy abbr.bib to the folder
-shutil.copyfile(abbr_file,abbr_copy)
+shutil.copyfile(abbr_orig_file,abbr_copy)
 
 # Open TEX file
 paper = open(paper_file).read().replace('\n', '')
